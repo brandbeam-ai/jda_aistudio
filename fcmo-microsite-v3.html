@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JD Alchemy runs your entire go-to-market engine — outbound, pipeline, content — so deeptech companies can focus on product and close deals.">
+    <meta name="keywords" content="GTM, go-to-market, deeptech, B2B, outbound, pipeline, SaaS">
+    <meta name="author" content="JD Alchemy">
+    <meta property="og:title" content="Your Product Deserves Pipeline. We Build It. | JD Alchemy">
+    <meta property="og:description" content="JD Alchemy runs your entire go-to-market engine — outbound, pipeline, content — so deeptech companies can focus on product and close deals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcmo.jdalchemy.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Product Deserves Pipeline. We Build It. | JD Alchemy">
+    <meta name="twitter:description" content="JD Alchemy runs your entire go-to-market engine — outbound, pipeline, content — so deeptech companies can focus on product and close deals.">
+
+    <title>Your Product Deserves Pipeline. We Build It. | JD Alchemy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'Outfit', system-ui, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: #0a0a0a;
+            color: #f5f5f5;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(196, 165, 90, 0.1);
+            z-index: 1000;
+            padding: 1rem 2rem;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #c4a55a;
+            letter-spacing: -0.5px;
+        }
+
+        .logo img {
+            height: 28px;
+            width: auto;
+            display: block;
+        }
+
+        .logo-text {
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #c4a55a;
+        }
+
+        .lang-toggle {
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a !important;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(196, 165, 90, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .lang-toggle:hover {
+            background: rgba(196, 165, 90, 0.25);
+            border-color: #c4a55a;
+        }
+
+        .cta-nav {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(196, 165, 90, 0.3);
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: #c4a55a;
+            margin: 5px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 60px;
+        }
+
+        section {
+            padding: 5rem calc((100% - 1200px) / 2 + 2rem);
+        }
+
+        @media (max-width: 1240px) {
+            section {
+                padding: 5rem 2rem;
+            }
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        h1 em, h2 em {
+            font-family: var(--font-display);
+            font-style: italic;
+            color: #c4a55a;
+            -webkit-text-fill-color: #c4a55a;
+        }
+
+        h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+        }
+
+        h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.75rem;
+            color: #ffffff;
+        }
+
+        /* Hero Section */
+        #hero {
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            position: relative;
+            overflow: visible;
+            background: radial-gradient(ellipse at 80% 10%, rgba(196, 165, 90, 0.12) 0%, transparent 50%),
+                        radial-gradient(ellipse at 20% 80%, rgba(232, 220, 200, 0.08) 0%, transparent 50%);
+        }
+
+        #hero::before {
+            display: none;
+        }
+
+        #hero::after {
+            display: none;
+        }
+
+        #hero > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-subheadline {
+            font-size: 1.25rem;
+            color: #b0b0b0;
+            margin-bottom: 2.5rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-bottom: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #c4a55a;
+            border: 2px solid #c4a55a;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(196, 165, 90, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.15);
+            animation: slideUp 0.8s ease-out 0.3s both;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item strong {
+            color: #c4a55a;
+            font-size: 1.1rem;
+        }
+
+        .stat-item p {
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Problem Section */
+        #problem {
+            background: linear-gradient(180deg, rgba(196, 165, 90, 0.05) 0%, rgba(232, 220, 200, 0.02) 100%);
+        }
+
+        .problem-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .problem-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .problem-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .problem-card h3 {
+            color: #c4a55a;
+            margin-bottom: 1rem;
+        }
+
+        .problem-card p {
+            color: #b0b0b0;
+            line-height: 1.7;
+        }
+
+        .problem-bottom {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Jay Jin Section */
+        #jay {
+            background: rgba(196, 165, 90, 0.05);
+        }
+
+        .jay-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 3rem;
+            align-items: center;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .jay-photo {
+            width: 280px;
+            height: 280px;
+            background: linear-gradient(135deg, #c4a55a 0%, #e8dcc8 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .jay-bio {
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .jay-bio strong {
+            color: #ffffff;
+        }
+
+        .jay-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .jay-stat {
+            background: rgba(196, 165, 90, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #c4a55a;
+        }
+
+        .jay-stat strong {
+            color: #c4a55a;
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .jay-stat span {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* What We Do Section */
+        #what {
+            background: linear-gradient(180deg, rgba(232, 220, 200, 0.02) 0%, rgba(196, 165, 90, 0.05) 100%);
+        }
+
+        .phases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .phase {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .phase:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .phase h3 {
+            color: #c4a55a;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .phase-subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .phase ul {
+            list-style: none;
+        }
+
+        .phase li {
+            color: #b0b0b0;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .phase li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #e8dcc8;
+            font-weight: bold;
+        }
+
+        .what-bottom {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+        }
+
+        .what-bottom p {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Case Studies Section */
+        #cases {
+            background: rgba(196, 165, 90, 0.03);
+        }
+
+        .case-studies {
+            position: relative;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .case-carousel-wrapper {
+            overflow: hidden;
+            padding: 4px;
+            margin: -4px;
+        }
+
+        .case-carousel {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .case-study {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem 3rem;
+            border-radius: 12px;
+            transition: background 0.3s ease, border-color 0.3s ease;
+            width: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        .case-study:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+        }
+
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .carousel-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid rgba(196, 165, 90, 0.4);
+            background: rgba(196, 165, 90, 0.08);
+            color: #c4a55a;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-btn:hover {
+            background: rgba(196, 165, 90, 0.2);
+            border-color: #c4a55a;
+        }
+
+        .carousel-btn:disabled {
+            opacity: 0.3;
+            cursor: default;
+        }
+
+        .carousel-dots {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(196, 165, 90, 0.25);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .carousel-dot.active {
+            background: #c4a55a;
+            width: 24px;
+            border-radius: 4px;
+        }
+
+        .carousel-counter {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+        }
+
+        /* Team Carousel */
+        .team-carousel-wrapper {
+            overflow: hidden;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .team-carousel {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%;
+        }
+
+        .team-slide {
+            width: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        .team-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        .case-tag {
+            display: inline-block;
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .case-study h3 {
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .case-section {
+            margin-bottom: 1rem;
+        }
+
+        .case-section-label {
+            color: #c4a55a;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+        }
+
+        .case-section-text {
+            color: #b0b0b0;
+            line-height: 1.7;
+        }
+
+        .case-results {
+            background: rgba(232, 220, 200, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #e8dcc8;
+            margin-top: 1.5rem;
+        }
+
+        .case-results .case-section-label {
+            color: #e8dcc8;
+        }
+
+        /* Packages Section */
+        #packages {
+            background: linear-gradient(180deg, rgba(232, 220, 200, 0.03) 0%, rgba(196, 165, 90, 0.05) 100%);
+        }
+
+        .packages-intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .packages-intro p {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+            align-items: stretch;
+        }
+
+        .package {
+            background: rgba(255, 255, 255, 0.03);
+            border: 2px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .package .btn-primary {
+            width: 100%;
+            margin-top: 1.5rem !important;
+        }
+
+        .package:hover {
+            border-color: rgba(196, 165, 90, 0.5);
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.15);
+        }
+
+        .package-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #c4a55a;
+            margin-bottom: 0.5rem;
+        }
+
+        .package-name {
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .package-subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .package-duration {
+            color: #c4a55a;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .package-includes {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(196, 165, 90, 0.2);
+        }
+
+        .package-best {
+            color: #888;
+            font-size: 0.85rem;
+            font-style: italic;
+            min-height: 3.4em;
+        }
+
+        .package-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Who We Work With Section */
+        #who {
+            background: rgba(196, 165, 90, 0.03);
+        }
+
+        .verticals {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .vertical-tag {
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a;
+            padding: 0.6rem 1.2rem;
+            border-radius: 24px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .vertical-tag:hover {
+            background: rgba(196, 165, 90, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .who-description {
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+            max-width: 800px;
+        }
+
+        .logos-label {
+            color: #888;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .logos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid rgba(196, 165, 90, 0.1);
+        }
+
+        .logo-placeholder {
+            text-align: center;
+            padding: 1rem 1rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            opacity: 0.55;
+        }
+
+        .logo-placeholder:hover {
+            opacity: 0.85;
+        }
+
+        .logo-placeholder img {
+            max-height: 32px;
+            max-width: 120px;
+            filter: grayscale(100%) brightness(2);
+            transition: filter 0.3s ease;
+        }
+
+        .logo-placeholder:hover img {
+            filter: grayscale(0%) brightness(1);
+        }
+
+        /* CTA Section */
+        #cta {
+            background: rgba(196, 165, 90, 0.08);
+            text-align: center;
+        }
+
+        #cta h2 {
+            margin-bottom: 0.75rem;
+        }
+
+        .cta-subheadline {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 1.5rem auto 2.5rem;
+            line-height: 1.8;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            display: grid;
+            gap: 1.5rem;
+            animation: slideUp 0.8s ease-out 0.3s both;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-align: left;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(196, 165, 90, 0.3);
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #c4a55a;
+            box-shadow: 0 0 0 3px rgba(196, 165, 90, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-submit {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+        }
+
+        .form-submit:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.4);
+        }
+
+        .cta-alternative {
+            color: #b0b0b0;
+            margin-top: 1rem;
+        }
+
+        .cta-alternative a {
+            color: #c4a55a;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .cta-alternative a:hover {
+            color: #d4b96a;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.4);
+            border-top: 1px solid rgba(196, 165, 90, 0.1);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: #888;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #c4a55a;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #c4a55a;
+        }
+
+        .footer-copyright {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 0.75rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.98);
+                padding: 1.5rem;
+                gap: 1rem;
+                border-bottom: 1px solid rgba(196, 165, 90, 0.1);
+                z-index: 999;
+            }
+
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            section {
+                padding: 3rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            .hero-subheadline {
+                font-size: 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+            }
+
+            .jay-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .jay-photo {
+                width: 200px;
+                height: 200px;
+                font-size: 3rem;
+            }
+
+            .jay-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .problem-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .phases {
+                grid-template-columns: 1fr;
+            }
+
+            .package-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .logos-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats-bar {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .verticals {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+
+            .logo img {
+                height: 24px;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+                gap: 0.45rem;
+            }
+
+            .hero-subheadline {
+                font-size: 0.95rem;
+            }
+
+            .cta-nav {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.85rem;
+            }
+
+            .jay-photo {
+                width: 150px;
+                height: 150px;
+                font-size: 2rem;
+            }
+
+            .logos-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-links {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#hero" class="logo" aria-label="JD Alchemy home">
+                <img src="/jda-logo.png" alt="JD Alchemy" />
+                <span class="logo-text">JD Alchemy</span>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#what">How It Works</a></li>
+                <li><a href="#cases">Results</a></li>
+                <li><a href="#packages">Pricing</a></li>
+                <li><a href="#who">For Who</a></li>
+                <li><a href="/ko" class="lang-toggle">한국어</a></li>
+                <li><button class="cta-nav" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Book Call</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Your Product Deserves Pipeline.<br>We <em>Build It.</em></h1>
+            <p class="hero-subheadline">JD Alchemy runs your entire go-to-market engine — outbound, pipeline, content — so deeptech companies can focus on product and close deals.</p>
+
+            <div class="cta-buttons">
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Book a Strategy Call</button>
+                <button class="btn-secondary" onclick="document.getElementById('what').scrollIntoView({behavior: 'smooth'})">See How It Works</button>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <strong>130+ GTM Sprints Completed</strong>
+                    <p>Real execution, real results</p>
+                </div>
+                <div class="stat-item">
+                    <strong>20B+ Social Media Views</strong>
+                    <p>Across our portfolio companies</p>
+                </div>
+                <div class="stat-item">
+                    <strong>30+ Enterprise Brands Served</strong>
+                    <p>Samsung, NVIDIA, LG, TikTok & more</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem">
+            <h2>Deeptech Companies Have a <em>GTM Problem</em></h2>
+
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <h3>Founder-Dependent Sales</h3>
+                    <p>You're the best salesperson in the company. That's the problem. Every deal depends on you, and your board wants scalable pipeline.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>Can't Hire Fast Enough</h3>
+                    <p>Finding a VP Sales or marketing lead willing to join a Series A deeptech company is nearly impossible. Top talent goes to big tech or incumbents.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>New Market, No Infrastructure</h3>
+                    <p>You have product-market fit in one market. But entering the US, SEA, or new verticals means starting from zero — no network, no playbook, no leads.</p>
+                </div>
+            </div>
+
+            <div class="problem-bottom">
+                You don't need another consultant with a strategy deck. You need a team that builds and runs your GTM engine.
+            </div>
+        </section>
+
+
+        <!-- What We Do Section -->
+        <section id="what">
+            <h2>We Build Your GTM Engine in 90 Days.<br>Then We <em>Run It.</em></h2>
+            <p style="text-align: center; color: #b0b0b0; margin-bottom: 2rem;">Two phases. One system. Compounding results.</p>
+
+            <div class="phases">
+                <div class="phase">
+                    <h3>Phase 1: Sprint</h3>
+                    <div class="phase-subtitle">60-90 Days — "We Build the Engine"</div>
+                    <ul>
+                        <li><strong>GTM Intelligence:</strong> Strategy, ICP definition, positioning, messaging</li>
+                        <li><strong>Proof & Content Assets:</strong> Case studies, ROI calculators, LinkedIn strategy</li>
+                        <li><strong>Outbound Engine:</strong> Lead lists, email campaigns, LinkedIn outreach</li>
+                        <li><strong>ABM:</strong> Named account targeting, decision-maker mapping</li>
+                        <li><strong>Funnel Infrastructure:</strong> CRM setup, dashboards, attribution</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>Phase 2: Operations</h3>
+                    <div class="phase-subtitle">Ongoing — "We Run the Engine"</div>
+                    <ul>
+                        <li><strong>Campaign Management:</strong> Monthly optimization and testing</li>
+                        <li><strong>Performance Reporting:</strong> Strategy calls and data review</li>
+                        <li><strong>Pipeline Generation:</strong> Continuous qualified lead flow</li>
+                        <li><strong>System Optimization:</strong> Improvement based on data</li>
+                        <li><strong>Compounding Results:</strong> Pipeline that grows over time</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="what-bottom">
+                <p>Your first qualified meetings in under 60 days.</p>
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})" style="margin-top: 1.5rem;">Start Your Sprint</button>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="cases">
+            <h2>Real Results. <em>Real Companies.</em></h2>
+
+            <div class="case-studies">
+                <div class="case-carousel-wrapper">
+                <div class="case-carousel" id="caseCarousel">
+                    <div class="case-study">
+                        <div class="case-tag">Content Commerce Platform</div>
+                        <h3>WIT Global</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">The Problem</div>
+                            <p class="case-section-text">WIT Global had a content commerce platform with traction but no systematic growth engine. User acquisition was unpredictable and ad revenue was stagnant.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">What We Built</div>
+                            <p class="case-section-text">Full GTM sprint — content strategy overhaul, distribution channel optimization, audience targeting, and performance infrastructure.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">The Results</div>
+                            <p class="case-section-text"><strong>7× increase in monthly active users. 5× growth in ad revenue.</strong> Successfully raised pre-Series A funding. Timeline: 6 months.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">AI Risk Intelligence / Fintech</div>
+                        <h3>PASCAL Software</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">The Problem</div>
+                            <p class="case-section-text">PASCAL had a powerful Investigator AI product for fund manager due diligence, but no outbound engine. Sales were founder-dependent with no systematic pipeline.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">What We Built</div>
+                            <p class="case-section-text">Outbound engine targeting fund managers and financial institutions. Lead lists, messaging sequences, LinkedIn outreach, and meeting booking infrastructure.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">The Results</div>
+                            <p class="case-section-text"><strong>Systematic pipeline of booked calls with qualified prospects.</strong> Moved from zero outbound to repeatable meeting generation.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">AI Media Scaling / B2C Beauty Tech</div>
+                        <h3>Digicon</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">The Problem</div>
+                            <p class="case-section-text">AI-powered short-form video production engine for beauty and health brands. Had strong product but needed a full GTM strategy for Korea and US market entry.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">What We Built</div>
+                            <p class="case-section-text">End-to-end GTM infrastructure — distribution channel partnerships, performance marketing, and brand acquisition engine for both Korea and US markets.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">The Results</div>
+                            <p class="case-section-text"><strong>Won the Grand Prize (Korea Presidential Award) at Young Tech Startup Grand Challenge 2023.</strong> Achieved 7x MAU growth. 40+ brand clients onboarded in the first year across Korea and US markets.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">SaaS / Brand Analytics</div>
+                        <h3>BrandBeam.io</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">The Problem</div>
+                            <p class="case-section-text">Brand sentiment and market intelligence SaaS platform with strong technology but no go-to-market motion. Needed ICP definition, outbound strategy, and first customers.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">What We Built</div>
+                            <p class="case-section-text">Full GTM strategy from concept to launch — ICP definition, outbound engine, enterprise sales playbook, and pilot customer acquisition program.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">The Results</div>
+                            <p class="case-section-text"><strong>Launched to 50+ enterprise pilots within 90 days of go-live.</strong> Achieved product-market fit in the Korean market. Transitioned to independent operations with self-sustaining growth engine.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev" onclick="moveCarousel(-1)">&#8592;</button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <span class="carousel-counter" id="carouselCounter">1 / 4</span>
+                    <button class="carousel-btn" id="carouselNext" onclick="moveCarousel(1)">&#8594;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Packages Section -->
+        <section id="packages">
+            <div class="packages-intro">
+                <h2>Packages Built for <em>Your Stage</em></h2>
+                <p>Same proven system. Scaled to your needs.</p>
+            </div>
+
+            <div class="package-grid">
+                <div class="package">
+                    <div class="package-price">$20K</div>
+                    <div class="package-name">Pipeline Sprint</div>
+                    <div class="package-subtitle">For companies that need outbound pipeline NOW</div>
+                    <div class="package-duration">60 Days</div>
+                    <div class="package-includes">
+                        <strong>Includes:</strong><br>
+                        GTM Intelligence + Outbound Engine + Funnel Infrastructure
+                    </div>
+                    <div class="package-best">Best for: Group B companies (scaling existing market)</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                </div>
+
+                <div class="package">
+                    <div class="package-price">$30K</div>
+                    <div class="package-name">Market Entry Sprint</div>
+                    <div class="package-subtitle">For companies entering a new market</div>
+                    <div class="package-duration">90 Days</div>
+                    <div class="package-includes">
+                        <strong>Includes:</strong><br>
+                        Everything in Tier 1 + Proof Assets + ABM
+                    </div>
+                    <div class="package-best">Best for: Group A companies (new geography or vertical)</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                </div>
+
+                <div class="package">
+                    <div class="package-price">$42K</div>
+                    <div class="package-name">Full GTM Team</div>
+                    <div class="package-subtitle">Your complete go-to-market operation</div>
+                    <div class="package-duration">90 Days + 3 Months Operations</div>
+                    <div class="package-includes">
+                        <strong>Includes:</strong><br>
+                        All modules + ongoing campaign management
+                    </div>
+                    <div class="package-best">Best for: Companies that want full execution from day one</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                </div>
+            </div>
+
+            <div class="package-footer">
+                Continued operations available at $2,500/month after any sprint.
+            </div>
+        </section>
+
+        <!-- Who We Work With Section -->
+        <section id="who">
+            <h2>Built for Deeptech <em>Going Global</em></h2>
+
+            <div class="verticals">
+                <span class="vertical-tag">AI/ML</span>
+                <span class="vertical-tag">Cybersecurity</span>
+                <span class="vertical-tag">Fintech/Regtech</span>
+                <span class="vertical-tag">Biotech/Healthtech</span>
+                <span class="vertical-tag">Robotics</span>
+                <span class="vertical-tag">Semiconductor</span>
+                <span class="vertical-tag">Cleantech</span>
+                <span class="vertical-tag">Deeptech SaaS</span>
+            </div>
+
+            <p class="who-description">We work with B2B deeptech and technical SaaS companies at Series A through C, typically $3M+ ARR, who are entering new markets or need to systematize pipeline beyond founder-led sales.</p>
+
+            <div class="logos-label">Trusted by teams backed by leading global brands</div>
+            <div class="logos-grid">
+                <div class="logo-placeholder"><img src="https://cdn.jsdelivr.net/gh/nicepng/nicepng@main/Samsung_Logo.svg.png" alt="Samsung" onerror="this.parentElement.innerHTML='<svg viewBox=&quot;0 0 120 28&quot; fill=&quot;#a0a0a0&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><text x=&quot;60&quot; y=&quot;20&quot; font-family=&quot;Outfit,sans-serif&quot; font-size=&quot;16&quot; font-weight=&quot;700&quot; text-anchor=&quot;middle&quot; letter-spacing=&quot;3&quot;>SAMSUNG</text></svg>'"></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">NVIDIA</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="22" font-family="Outfit,sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="1">LG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">Grab</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic" letter-spacing="1">Pepsi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 140 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="70" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" text-anchor="middle" font-style="italic">Coca-Cola</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SONY</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HUAWEI</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="300" text-anchor="middle" letter-spacing="1">Xiaomi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="15" font-weight="700" text-anchor="middle">TikTok</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic">Nestlé</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HANWHA</text></svg></div>
+            </div>
+        </section>
+
+        <!-- About the Team Section -->
+        <section id="team" style="text-align: center;">
+            <h2>Who's Behind <em>JD Alchemy</em></h2>
+
+            <div class="team-carousel-wrapper">
+                <div class="team-carousel" id="teamCarousel">
+                    <div class="team-slide">
+                        <div class="jay-photo" style="width: 160px; height: 160px; font-size: 2.5rem; margin: 0 auto 2rem;">JJ</div>
+                        <p style="color: #c4a55a; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem;">Founder & CEO</p>
+                        <p style="color: #f5f5f5; font-size: 1.15rem; line-height: 1.8; margin-bottom: 1rem;"><strong>Jay Jin</strong> &mdash; 15+ years building GTM engines across Asia. Led user acquisition of tens of millions across India, MENA, and Southeast Asia as Global Marketing Lead at LINE (Naver). As CEO of CREATORY, earned 25 YouTube Gold Buttons, delivered 20 billion social media views, and venture-built dozens of content creators' businesses over 8 years.</p>
+                        <p style="color: #a0a0a0; font-size: 1rem; line-height: 1.8;">Founded JD Alchemy as a venture studio — building companies, not just advising them. 130+ GTM sprints executed. 570+ proprietary assets shipped. $150M+ ecosystem value influenced. Now applying the same methodology to B2B deeptech and technical SaaS companies worldwide.</p>
+                    </div>
+                    <div class="team-slide">
+                        <div class="jay-photo" style="width: 160px; height: 160px; font-size: 2.5rem; margin: 0 auto 2rem;">DY</div>
+                        <p style="color: #c4a55a; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem;">Co-Founder</p>
+                        <p style="color: #f5f5f5; font-size: 1.15rem; line-height: 1.8; margin-bottom: 1rem;"><strong>David Yi</strong> &mdash; 8x founder with 2 exits, having shaped $10B+ in opportunities across Asia and the US. Former CEO of Riiid Labs (AI for education). Built three businesses to $20M+ ARR and raised over $300M in venture capital across his ventures.</p>
+                        <p style="color: #a0a0a0; font-size: 1rem; line-height: 1.8;">Managing Partner at Ethos Fund, a pre-seed VC bridging Vietnam-US startup ecosystems with $12M in commitments. University of Chicago Law graduate. Brings deep cross-border deal-making, fundraising, and ecosystem-building expertise to JD Alchemy's venture studio model.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-controls">
+                <button class="carousel-btn" id="teamPrev" onclick="moveTeam(-1)">&#8592;</button>
+                <div id="teamDots" class="carousel-dots"></div>
+                <span class="carousel-counter" id="teamCounter">1 / 2</span>
+                <button class="carousel-btn" id="teamNext" onclick="moveTeam(1)">&#8594;</button>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta">
+            <h2>Stop Doing Sales <em>Alone.</em></h2>
+            <p class="cta-subheadline">In 30 minutes, we'll map your GTM gap and show you exactly what we'd build. No pitch deck. Just your pipeline plan.</p>
+
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="challenge">What's your biggest GTM challenge right now?</label>
+                    <textarea id="challenge" name="challenge" required></textarea>
+                </div>
+                <button type="submit" class="form-submit">Book Your Strategy Call</button>
+            </form>
+
+            <div class="cta-alternative">
+                Or email directly: <a href="mailto:jay@jdalchemy.com">jay@jdalchemy.com</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">JD Alchemy</div>
+            <div class="footer-copyright">© 2026 JD Alchemy Holdings. Singapore.</div>
+        </div>
+    </footer>
+
+    <script>
+        // Case Studies Carousel
+        let carouselIndex = 0;
+        const carousel = document.getElementById('caseCarousel');
+        const slides = carousel.querySelectorAll('.case-study');
+        const totalSlides = slides.length;
+        const dotsContainer = document.getElementById('carouselDots');
+        const counterEl = document.getElementById('carouselCounter');
+
+        function buildDots() {
+            dotsContainer.innerHTML = '';
+            for (let i = 0; i < totalSlides; i++) {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === carouselIndex ? ' active' : '');
+                dot.onclick = () => { carouselIndex = i; updateCarousel(); };
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        function updateCarousel() {
+            if (carouselIndex < 0) carouselIndex = 0;
+            if (carouselIndex >= totalSlides) carouselIndex = totalSlides - 1;
+
+            carousel.style.transform = 'translateX(-' + (carouselIndex * 100) + '%)';
+
+            document.getElementById('carouselPrev').disabled = carouselIndex === 0;
+            document.getElementById('carouselNext').disabled = carouselIndex >= totalSlides - 1;
+
+            counterEl.textContent = (carouselIndex + 1) + ' / ' + totalSlides;
+
+            dotsContainer.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+                dot.className = 'carousel-dot' + (i === carouselIndex ? ' active' : '');
+            });
+        }
+
+        function moveCarousel(dir) {
+            carouselIndex += dir;
+            updateCarousel();
+        }
+
+        buildDots();
+        updateCarousel();
+
+        // Team Carousel
+        let teamIndex = 0;
+        const teamCarousel = document.getElementById('teamCarousel');
+        const teamSlides = teamCarousel.querySelectorAll('.team-slide');
+        const teamTotal = teamSlides.length;
+        const teamDotsEl = document.getElementById('teamDots');
+        const teamCounterEl = document.getElementById('teamCounter');
+
+        function buildTeamDots() {
+            teamDotsEl.innerHTML = '';
+            for (let i = 0; i < teamTotal; i++) {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === teamIndex ? ' active' : '');
+                dot.onclick = () => { teamIndex = i; updateTeam(); };
+                teamDotsEl.appendChild(dot);
+            }
+        }
+
+        function updateTeam() {
+            if (teamIndex < 0) teamIndex = 0;
+            if (teamIndex >= teamTotal) teamIndex = teamTotal - 1;
+            teamCarousel.style.transform = 'translateX(-' + (teamIndex * 100) + '%)';
+            document.getElementById('teamPrev').disabled = teamIndex === 0;
+            document.getElementById('teamNext').disabled = teamIndex >= teamTotal - 1;
+            teamCounterEl.textContent = (teamIndex + 1) + ' / ' + teamTotal;
+            teamDotsEl.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+                dot.className = 'carousel-dot' + (i === teamIndex ? ' active' : '');
+            });
+        }
+
+        function moveTeam(dir) {
+            teamIndex += dir;
+            updateTeam();
+        }
+
+        buildTeamDots();
+        updateTeam();
+
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        const navItems = navLinks.querySelectorAll('a');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Form Submission Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const company = document.getElementById('company').value;
+            const email = document.getElementById('email').value;
+            const challenge = document.getElementById('challenge').value;
+
+            // Log the form data (in production, this would send to a backend)
+            console.log('Form submitted:', { name, company, email, challenge });
+
+            // Simulate success message
+            const form = event.target;
+            const submitBtn = form.querySelector('.form-submit');
+            const originalText = submitBtn.textContent;
+
+            submitBtn.textContent = 'Check your email!';
+            submitBtn.disabled = true;
+
+            setTimeout(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+                form.reset();
+            }, 3000);
+        }
+
+        // Smooth scroll behavior for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll animation trigger for elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.animation = 'slideUp 0.8s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

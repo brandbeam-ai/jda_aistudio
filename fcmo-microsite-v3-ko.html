@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JD Alchemy는 한국 B2B 딥테크 기업의 GTM 엔진을 직접 구축하고 운영합니다. 아웃바운드, 파이프라인, 콘텐츠 — 90일 안에 시스템을 만들어 드립니다.">
+    <meta name="keywords" content="GTM, 시장진출, 한국 딥테크, 아웃바운드, 파이프라인, SaaS, 프랙셔널 CMO">
+    <meta name="author" content="JD Alchemy">
+    <meta property="og:title" content="제품은 준비되었습니다. 파이프라인은 저희가 만듭니다. | JD Alchemy">
+    <meta property="og:description" content="JD Alchemy는 한국 B2B 딥테크 기업의 GTM 엔진을 직접 구축하고 운영합니다. 아웃바운드, 파이프라인, 콘텐츠 — 90일 안에 시스템을 만들어 드립니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcmo.jdalchemy.com/ko">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="제품은 준비되었습니다. 파이프라인은 저희가 만듭니다. | JD Alchemy">
+    <meta name="twitter:description" content="JD Alchemy는 한국 B2B 딥테크 기업의 GTM 엔진을 직접 구축하고 운영합니다. 아웃바운드, 파이프라인, 콘텐츠 — 90일 안에 시스템을 만들어 드립니다.">
+
+    <title>제품은 준비되었습니다. 파이프라인은 저희가 만듭니다. | JD Alchemy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'Noto Sans KR', 'Outfit', system-ui, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: #0a0a0a;
+            color: #f5f5f5;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(196, 165, 90, 0.1);
+            z-index: 1000;
+            padding: 1rem 2rem;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #c4a55a;
+            letter-spacing: -0.5px;
+        }
+
+        .logo img {
+            height: 28px;
+            width: auto;
+            display: block;
+        }
+
+        .logo-text {
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #c4a55a;
+        }
+
+        .lang-toggle {
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a !important;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(196, 165, 90, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .lang-toggle:hover {
+            background: rgba(196, 165, 90, 0.25);
+            border-color: #c4a55a;
+        }
+
+        .cta-nav {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(196, 165, 90, 0.3);
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: #c4a55a;
+            margin: 5px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 60px;
+        }
+
+        section {
+            padding: 5rem calc((100% - 1200px) / 2 + 2rem);
+        }
+
+        @media (max-width: 1240px) {
+            section {
+                padding: 5rem 2rem;
+            }
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        h1 em, h2 em {
+            font-family: var(--font-display);
+            font-style: italic;
+            color: #c4a55a;
+            -webkit-text-fill-color: #c4a55a;
+        }
+
+        h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+        }
+
+        h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.75rem;
+            color: #ffffff;
+        }
+
+        /* Hero Section */
+        #hero {
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            position: relative;
+            overflow: visible;
+            background: radial-gradient(ellipse at 80% 10%, rgba(196, 165, 90, 0.12) 0%, transparent 50%),
+                        radial-gradient(ellipse at 20% 80%, rgba(232, 220, 200, 0.08) 0%, transparent 50%);
+        }
+
+        #hero::before {
+            display: none;
+        }
+
+        #hero::after {
+            display: none;
+        }
+
+        #hero > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-subheadline {
+            font-size: 1.25rem;
+            color: #b0b0b0;
+            margin-bottom: 2.5rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-bottom: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #c4a55a;
+            border: 2px solid #c4a55a;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(196, 165, 90, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.15);
+            animation: slideUp 0.8s ease-out 0.3s both;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item strong {
+            color: #c4a55a;
+            font-size: 1.1rem;
+        }
+
+        .stat-item p {
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Problem Section */
+        #problem {
+            background: linear-gradient(180deg, rgba(196, 165, 90, 0.05) 0%, rgba(232, 220, 200, 0.02) 100%);
+        }
+
+        .problem-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .problem-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .problem-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .problem-card h3 {
+            color: #c4a55a;
+            margin-bottom: 1rem;
+        }
+
+        .problem-card p {
+            color: #b0b0b0;
+            line-height: 1.7;
+        }
+
+        .problem-bottom {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Jay Jin Section */
+        #jay {
+            background: rgba(196, 165, 90, 0.05);
+        }
+
+        .jay-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 3rem;
+            align-items: center;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .jay-photo {
+            width: 280px;
+            height: 280px;
+            background: linear-gradient(135deg, #c4a55a 0%, #e8dcc8 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .jay-bio {
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .jay-bio strong {
+            color: #ffffff;
+        }
+
+        .jay-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .jay-stat {
+            background: rgba(196, 165, 90, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #c4a55a;
+        }
+
+        .jay-stat strong {
+            color: #c4a55a;
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .jay-stat span {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* What We Do Section */
+        #what {
+            background: linear-gradient(180deg, rgba(232, 220, 200, 0.02) 0%, rgba(196, 165, 90, 0.05) 100%);
+        }
+
+        .phases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .phase {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .phase:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .phase h3 {
+            color: #c4a55a;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .phase-subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .phase ul {
+            list-style: none;
+        }
+
+        .phase li {
+            color: #b0b0b0;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .phase li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #e8dcc8;
+            font-weight: bold;
+        }
+
+        .what-bottom {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+        }
+
+        .what-bottom p {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Case Studies Section */
+        #cases {
+            background: rgba(196, 165, 90, 0.03);
+        }
+
+        .case-studies {
+            position: relative;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .case-carousel-wrapper {
+            overflow: hidden;
+            padding: 4px;
+            margin: -4px;
+        }
+
+        .case-carousel {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .case-study {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem 3rem;
+            border-radius: 12px;
+            transition: background 0.3s ease, border-color 0.3s ease;
+            width: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        .case-study:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(196, 165, 90, 0.4);
+        }
+
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .carousel-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid rgba(196, 165, 90, 0.4);
+            background: rgba(196, 165, 90, 0.08);
+            color: #c4a55a;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-btn:hover {
+            background: rgba(196, 165, 90, 0.2);
+            border-color: #c4a55a;
+        }
+
+        .carousel-btn:disabled {
+            opacity: 0.3;
+            cursor: default;
+        }
+
+        .carousel-dots {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(196, 165, 90, 0.25);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .carousel-dot.active {
+            background: #c4a55a;
+            width: 24px;
+            border-radius: 4px;
+        }
+
+        .carousel-counter {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+        }
+
+        .team-carousel-wrapper {
+            overflow: hidden;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .team-carousel {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%;
+        }
+
+        .team-slide {
+            width: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        .team-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        .case-tag {
+            display: inline-block;
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .case-study h3 {
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .case-section {
+            margin-bottom: 1rem;
+        }
+
+        .case-section-label {
+            color: #c4a55a;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+        }
+
+        .case-section-text {
+            color: #b0b0b0;
+            line-height: 1.7;
+        }
+
+        .case-results {
+            background: rgba(232, 220, 200, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #e8dcc8;
+            margin-top: 1.5rem;
+        }
+
+        .case-results .case-section-label {
+            color: #e8dcc8;
+        }
+
+        /* Packages Section */
+        #packages {
+            background: linear-gradient(180deg, rgba(232, 220, 200, 0.03) 0%, rgba(196, 165, 90, 0.05) 100%);
+        }
+
+        .packages-intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .packages-intro p {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+            align-items: stretch;
+        }
+
+        .package {
+            background: rgba(255, 255, 255, 0.03);
+            border: 2px solid rgba(196, 165, 90, 0.2);
+            padding: 2.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .package .btn-primary {
+            width: 100%;
+            margin-top: 1.5rem !important;
+        }
+
+        .package:hover {
+            border-color: rgba(196, 165, 90, 0.5);
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.15);
+        }
+
+        .package-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #c4a55a;
+            margin-bottom: 0.5rem;
+        }
+
+        .package-name {
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .package-subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .package-duration {
+            color: #c4a55a;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .package-includes {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(196, 165, 90, 0.2);
+        }
+
+        .package-best {
+            color: #888;
+            font-size: 0.85rem;
+            font-style: italic;
+            min-height: 3.4em;
+        }
+
+        .package-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(196, 165, 90, 0.2);
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Who We Work With Section */
+        #who {
+            background: rgba(196, 165, 90, 0.03);
+        }
+
+        .verticals {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .vertical-tag {
+            background: rgba(196, 165, 90, 0.15);
+            color: #c4a55a;
+            padding: 0.6rem 1.2rem;
+            border-radius: 24px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .vertical-tag:hover {
+            background: rgba(196, 165, 90, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .who-description {
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+            max-width: 800px;
+        }
+
+        .logos-label {
+            color: #888;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .logos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid rgba(196, 165, 90, 0.1);
+        }
+
+        .logo-placeholder {
+            text-align: center;
+            padding: 1rem 1rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            opacity: 0.55;
+        }
+
+        .logo-placeholder:hover {
+            opacity: 0.85;
+        }
+
+        .logo-placeholder img {
+            max-height: 32px;
+            max-width: 120px;
+            filter: grayscale(100%) brightness(2);
+            transition: filter 0.3s ease;
+        }
+
+        .logo-placeholder:hover img {
+            filter: grayscale(0%) brightness(1);
+        }
+
+        /* Korean Section */
+        #korean {
+            background: linear-gradient(180deg, rgba(232, 220, 200, 0.05) 0%, rgba(196, 165, 90, 0.03) 100%);
+            text-align: center;
+        }
+
+        .korean-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+        }
+
+        .korean-text {
+            color: #b0b0b0;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        /* CTA Section */
+        #cta {
+            background: rgba(196, 165, 90, 0.08);
+            text-align: center;
+        }
+
+        #cta h2 {
+            margin-bottom: 0.75rem;
+        }
+
+        .cta-subheadline {
+            color: #b0b0b0;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 1.5rem auto 2.5rem;
+            line-height: 1.8;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            display: grid;
+            gap: 1.5rem;
+            animation: slideUp 0.8s ease-out 0.3s both;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-align: left;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(196, 165, 90, 0.3);
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #c4a55a;
+            box-shadow: 0 0 0 3px rgba(196, 165, 90, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-submit {
+            background: linear-gradient(135deg, #c4a55a 0%, #b08d3a 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+        }
+
+        .form-submit:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(196, 165, 90, 0.4);
+        }
+
+        .cta-alternative {
+            color: #b0b0b0;
+            margin-top: 1rem;
+        }
+
+        .cta-alternative a {
+            color: #c4a55a;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .cta-alternative a:hover {
+            color: #d4b96a;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.4);
+            border-top: 1px solid rgba(196, 165, 90, 0.1);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: #888;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #c4a55a;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #c4a55a;
+        }
+
+        .footer-copyright {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 0.75rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.98);
+                padding: 1.5rem;
+                gap: 1rem;
+                border-bottom: 1px solid rgba(196, 165, 90, 0.1);
+                z-index: 999;
+            }
+
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            section {
+                padding: 3rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            .hero-subheadline {
+                font-size: 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+            }
+
+            .jay-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .jay-photo {
+                width: 200px;
+                height: 200px;
+                font-size: 3rem;
+            }
+
+            .jay-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .problem-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .phases {
+                grid-template-columns: 1fr;
+            }
+
+            .package-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .logos-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats-bar {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .verticals {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+
+            .logo img {
+                height: 24px;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+                gap: 0.45rem;
+            }
+
+            .hero-subheadline {
+                font-size: 0.95rem;
+            }
+
+            .cta-nav {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.85rem;
+            }
+
+            .jay-photo {
+                width: 150px;
+                height: 150px;
+                font-size: 2rem;
+            }
+
+            .logos-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-links {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#hero" class="logo" aria-label="JD Alchemy home">
+                <img src="/jda-logo.png" alt="JD Alchemy" />
+                <span class="logo-text">JD Alchemy</span>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#what">서비스 소개</a></li>
+                <li><a href="#cases">성과 사례</a></li>
+                <li><a href="#packages">패키지</a></li>
+                <li><a href="#who">대상 기업</a></li>
+                <li><a href="/" class="lang-toggle">English</a></li>
+                <li><button class="cta-nav" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">상담 예약</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>제품은 준비되었습니다.<br>파이프라인은 <em>저희가 만듭니다.</em></h1>
+            <p class="hero-subheadline">JD Alchemy는 한국 B2B 딥테크 기업의 GTM 엔진 전체를 직접 구축하고 운영합니다. 아웃바운드, 파이프라인, 콘텐츠 — 대표님은 제품 개발과 수주에만 집중하실 수 있습니다.</p>
+
+            <div class="cta-buttons">
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">전략 상담 예약하기</button>
+                <button class="btn-secondary" onclick="document.getElementById('what').scrollIntoView({behavior: 'smooth'})">서비스 소개 보기</button>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <strong>130건+ GTM 스프린트 완료</strong>
+                    <p>전략이 아닌 실행 중심</p>
+                </div>
+                <div class="stat-item">
+                    <strong>소셜 미디어 200억+ 조회</strong>
+                    <p>포트폴리오 기업 기준</p>
+                </div>
+                <div class="stat-item">
+                    <strong>30개+ 글로벌 브랜드 협업</strong>
+                    <p>Samsung, NVIDIA, LG, TikTok 외</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem">
+            <h2>한국 딥테크 기업이 직면한 <em>GTM 과제</em></h2>
+
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <h3>대표 의존형 영업</h3>
+                    <p>회사에서 가장 뛰어난 영업사원이 대표님 본인입니다. 모든 딜이 대표님께 달려 있고, 이사회에서는 체계적으로 확장할 수 있는 영업 파이프라인을 요구합니다.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>인재 확보의 어려움</h3>
+                    <p>시리즈 A 딥테크 스타트업에 합류할 VP Sales나 마케팅 리더를 찾는 것은 거의 불가능합니다. 우수 인재는 대기업이나 빅테크로 향합니다.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>새로운 시장, 제로 인프라</h3>
+                    <p>한국에서 Product-Market Fit은 확보했습니다. 하지만 미국, 동남아, 유럽 진출은 네트워크도, 플레이북도, 리드도 없는 상태에서 시작해야 합니다.</p>
+                </div>
+            </div>
+
+            <div class="problem-bottom">
+                전략 자료만 전달하는 컨설턴트는 필요 없습니다. GTM 엔진을 직접 구축하고 운영하는 팀이 필요합니다.
+            </div>
+        </section>
+
+        <!-- Venture Studio Track Record Section -->
+
+        <!-- What We Do Section -->
+        <section id="what">
+            <h2>90일 안에 GTM 엔진을 구축합니다.<br>이후 저희가 <em>직접 운영합니다.</em></h2>
+            <p style="text-align: center; color: #b0b0b0; margin-bottom: 2rem;">두 단계. 하나의 시스템. 누적 성장.</p>
+
+            <div class="phases">
+                <div class="phase">
+                    <h3>Phase 1: 스프린트</h3>
+                    <div class="phase-subtitle">60-90일 — "GTM 엔진 구축 단계"</div>
+                    <ul>
+                        <li><strong>GTM 인텔리전스:</strong> 전략 수립, ICP 정의, 포지셔닝, 메시징</li>
+                        <li><strong>신뢰 자산 구축:</strong> 케이스 스터디, ROI 계산기, LinkedIn 전략</li>
+                        <li><strong>아웃바운드 엔진:</strong> 리드 리스트, 이메일 캠페인, LinkedIn 아웃리치</li>
+                        <li><strong>ABM:</strong> 지정 어카운트 타겟팅, 의사결정권자 매핑</li>
+                        <li><strong>퍼널 인프라:</strong> CRM 세팅, 대시보드, 기여도 분석</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>Phase 2: 운영</h3>
+                    <div class="phase-subtitle">지속 운영 — "운영 및 최적화 단계"</div>
+                    <ul>
+                        <li><strong>캠페인 관리:</strong> 월별 최적화 및 테스트</li>
+                        <li><strong>성과 리포팅:</strong> 전략 미팅 및 데이터 리뷰</li>
+                        <li><strong>파이프라인 생성:</strong> 지속적인 검증된 리드 확보</li>
+                        <li><strong>시스템 최적화:</strong> 데이터 기반 개선</li>
+                        <li><strong>누적 성장:</strong> 시간이 지날수록 강해지는 파이프라인</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="what-bottom">
+                <p>60일 이내에 첫 번째 검증된 미팅을 만들어 드립니다.</p>
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})" style="margin-top: 1.5rem;">스프린트 시작하기</button>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="cases">
+            <h2>실제 성과. <em>실제 기업.</em></h2>
+
+            <div class="case-studies">
+                <div class="case-carousel-wrapper">
+                <div class="case-carousel" id="caseCarousel">
+                    <div class="case-study">
+                        <div class="case-tag">콘텐츠 커머스 플랫폼</div>
+                        <h3>WIT Global</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">문제 상황</div>
+                            <p class="case-section-text">WIT Global은 콘텐츠 커머스 플랫폼으로 초기 트랙션은 확보했으나, 체계적인 성장 엔진이 부재했습니다. 사용자 확보가 불안정하고 광고 매출이 정체된 상태였습니다.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">실행 내용</div>
+                            <p class="case-section-text">전체 GTM 스프린트 — 콘텐츠 전략 전면 재설계, 유통 채널 최적화, 타겟 오디언스 설정, 퍼포먼스 인프라 구축.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">성과</div>
+                            <p class="case-section-text"><strong>월간 활성 사용자 7배 증가. 광고 매출 5배 성장.</strong> Pre-Series A 투자 유치 성공. 소요 기간: 6개월.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">AI 리스크 인텔리전스 / 핀테크</div>
+                        <h3>PASCAL Software</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">문제 상황</div>
+                            <p class="case-section-text">PASCAL은 펀드 매니저 실사를 위한 강력한 Investigator AI 제품을 보유하고 있었으나, 아웃바운드 엔진이 전무했습니다. 영업이 대표 의존 구조로, 체계적 파이프라인이 없었습니다.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">실행 내용</div>
+                            <p class="case-section-text">펀드 매니저 및 금융기관 대상 아웃바운드 엔진. 리드 리스트, 메시징 시퀀스, LinkedIn 아웃리치, 미팅 예약 인프라를 구축했습니다.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">성과</div>
+                            <p class="case-section-text"><strong>검증된 잠재 고객과의 체계적 미팅 파이프라인 확보.</strong> 아웃바운드 제로 상태에서 반복 가능한 미팅 생성 체계를 구축했습니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">AI 미디어 스케일링 / B2C 뷰티테크</div>
+                        <h3>Digicon</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">문제 상황</div>
+                            <p class="case-section-text">뷰티 및 헬스 브랜드를 위한 AI 기반 숏폼 영상 제작 엔진. 우수한 제품력을 보유하고 있었으나, 한국 및 미국 시장 진출을 위한 전체 GTM 전략이 필요했습니다.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">실행 내용</div>
+                            <p class="case-section-text">한국 및 미국 시장 동시 진출을 위한 엔드투엔드 GTM 인프라 구축 — 유통 채널 파트너십, 퍼포먼스 마케팅, 브랜드 고객 확보 엔진.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">성과</div>
+                            <p class="case-section-text"><strong>2023년 Young Tech Startup Grand Challenge 대상(대통령상) 수상.</strong> MAU 7배 성장 달성. 한국 및 미국 시장에서 첫해 40개 이상 브랜드 고객 확보.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study">
+                        <div class="case-tag">SaaS / 브랜드 분석</div>
+                        <h3>BrandBeam.io</h3>
+
+                        <div class="case-section">
+                            <div class="case-section-label">문제 상황</div>
+                            <p class="case-section-text">브랜드 감성 분석 및 시장 인텔리전스 SaaS 플랫폼. 우수한 기술력을 보유하고 있었으나, GTM 전략이 전무한 상태였습니다. ICP 정의, 아웃바운드 전략, 초기 고객 확보가 필요했습니다.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <div class="case-section-label">실행 내용</div>
+                            <p class="case-section-text">컨셉 단계부터 런칭까지 전체 GTM 전략 수립 — ICP 정의, 아웃바운드 엔진, 기업 영업 플레이북, 파일럿 고객 확보 프로그램.</p>
+                        </div>
+
+                        <div class="case-results">
+                            <div class="case-section-label">성과</div>
+                            <p class="case-section-text"><strong>런칭 90일 만에 50개 이상 기업 파일럿 확보.</strong> 한국 시장에서 Product-Market Fit 달성. 자립 성장 엔진 기반으로 독립 운영 전환 완료.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev" onclick="moveCarousel(-1)">&#8592;</button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <span class="carousel-counter" id="carouselCounter">1 / 4</span>
+                    <button class="carousel-btn" id="carouselNext" onclick="moveCarousel(1)">&#8594;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Packages Section -->
+        <section id="packages">
+            <div class="packages-intro">
+                <h2>기업 단계에 맞는 <em>맞춤 패키지</em></h2>
+                <p>동일한 검증된 시스템. 귀사의 상황에 맞게 설계합니다.</p>
+            </div>
+
+            <div class="package-grid">
+                <div class="package">
+                    <div class="package-price">$20K</div>
+                    <div class="package-name">Pipeline Sprint</div>
+                    <div class="package-subtitle">지금 당장 아웃바운드 파이프라인이 필요한 기업</div>
+                    <div class="package-duration">60일</div>
+                    <div class="package-includes">
+                        <strong>포함 항목:</strong><br>
+                        GTM 인텔리전스 + 아웃바운드 엔진 + 퍼널 인프라
+                    </div>
+                    <div class="package-best">적합 대상: 기존 시장 확장 단계의 기업</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">자세히 보기</button>
+                </div>
+
+                <div class="package">
+                    <div class="package-price">$30K</div>
+                    <div class="package-name">Market Entry Sprint</div>
+                    <div class="package-subtitle">새로운 시장에 진출하는 기업</div>
+                    <div class="package-duration">90일</div>
+                    <div class="package-includes">
+                        <strong>포함 항목:</strong><br>
+                        Tier 1 전체 + 신뢰 자산 구축 + ABM
+                    </div>
+                    <div class="package-best">적합 대상: 신규 지역 또는 버티컬 진출 기업</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">자세히 보기</button>
+                </div>
+
+                <div class="package">
+                    <div class="package-price">$42K</div>
+                    <div class="package-name">Full GTM Team</div>
+                    <div class="package-subtitle">완전한 GTM 운영 체계</div>
+                    <div class="package-duration">90일 + 3개월 운영</div>
+                    <div class="package-includes">
+                        <strong>포함 항목:</strong><br>
+                        전체 모듈 + 지속 캠페인 운영
+                    </div>
+                    <div class="package-best">적합 대상: 처음부터 풀 실행을 원하는 기업</div>
+                    <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">자세히 보기</button>
+                </div>
+            </div>
+
+            <div class="package-footer">
+                스프린트 종료 후 월 $2,500으로 지속 운영 가능합니다.
+            </div>
+        </section>
+
+        <!-- Who We Work With Section -->
+        <section id="who">
+            <h2>글로벌 진출을 준비하는 <em>한국 딥테크를 위해</em></h2>
+
+            <div class="verticals">
+                <span class="vertical-tag">AI/ML</span>
+                <span class="vertical-tag">사이버보안</span>
+                <span class="vertical-tag">핀테크/레그테크</span>
+                <span class="vertical-tag">바이오/헬스테크</span>
+                <span class="vertical-tag">로보틱스</span>
+                <span class="vertical-tag">반도체</span>
+                <span class="vertical-tag">클린테크</span>
+                <span class="vertical-tag">딥테크 SaaS</span>
+            </div>
+
+            <p class="who-description">시리즈 A~C 단계, ARR $3M 이상의 한국 B2B 딥테크 및 기술 SaaS 기업과 함께합니다. 신규 시장 진출 또는 대표 의존 영업을 넘어 체계적 파이프라인 구축이 필요한 기업이 저희의 파트너입니다.</p>
+
+            <div class="logos-label">글로벌 선도 브랜드와 함께한 팀</div>
+            <div class="logos-grid">
+                <div class="logo-placeholder"><svg viewBox="0 0 140 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="70" y="20" font-family="Outfit,sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="3">SAMSUNG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">NVIDIA</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="22" font-family="Outfit,sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="1">LG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">Grab</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic" letter-spacing="1">Pepsi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 140 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="70" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" text-anchor="middle" font-style="italic">Coca-Cola</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SONY</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HUAWEI</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="300" text-anchor="middle" letter-spacing="1">Xiaomi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="15" font-weight="700" text-anchor="middle">TikTok</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic">Nestlé</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HANWHA</text></svg></div>
+            </div>
+        </section>
+
+        <!-- About the Team Section -->
+        <section id="team" style="text-align: center;">
+            <h2><em>JD Alchemy</em> 팀 소개</h2>
+
+            <div class="team-carousel-wrapper">
+                <div class="team-carousel" id="teamCarousel">
+                    <div class="team-slide">
+                        <div class="jay-photo" style="width: 160px; height: 160px; font-size: 2.5rem; margin: 0 auto 2rem;">JJ</div>
+                        <p style="color: #c4a55a; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem;">창업자 & 대표</p>
+                        <p style="color: #f5f5f5; font-size: 1.15rem; line-height: 1.8; margin-bottom: 1rem;"><strong>Jay Jin</strong> &mdash; 15년 이상 아시아 글로벌 시장에서 GTM 엔진을 구축해 왔습니다. LINE(네이버) 글로벌 마케팅 리드로서 인도, MENA, 동남아시아 시장에서 수천만 건의 사용자를 확보했습니다. CREATORY 대표로 8년간 유튜브 골드 버튼 25개, 소셜 미디어 200억 조회수를 달성하고, 수십 명의 크리에이터 비즈니스를 벤처 스튜디오 방식으로 성공적으로 구축했습니다.</p>
+                        <p style="color: #a0a0a0; font-size: 1rem; line-height: 1.8;">JD Alchemy를 벤처 스튜디오로 설립하여, 조언이 아닌 직접 구축하는 방식으로 사업을 운영합니다. 130건 이상의 GTM 스프린트를 실행하고 570개 이상의 독자 자산을 제작했으며, $150M 이상의 생태계 가치에 기여했습니다. 현재 동일한 방법론을 한국 B2B 딥테크 및 기술 SaaS 기업에 전문적으로 적용하고 있습니다.</p>
+                    </div>
+                    <div class="team-slide">
+                        <div class="jay-photo" style="width: 160px; height: 160px; font-size: 2.5rem; margin: 0 auto 2rem;">DY</div>
+                        <p style="color: #c4a55a; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem;">공동 창업자</p>
+                        <p style="color: #f5f5f5; font-size: 1.15rem; line-height: 1.8; margin-bottom: 1rem;"><strong>David Yi</strong> &mdash; 8회 창업, 2회 엑싯을 달성한 연쇄 창업가로, 아시아와 미국을 넘나들며 $10B 이상의 사업 기회를 창출했습니다. AI 에듀테크 기업 Riiid Labs 전 CEO. 3개 기업을 ARR $20M 이상으로 성장시키고, 누적 $300M 이상의 벤처 캐피탈을 유치했습니다.</p>
+                        <p style="color: #a0a0a0; font-size: 1rem; line-height: 1.8;">베트남-미국 스타트업 생태계를 연결하는 프리시드 VC Ethos Fund의 Managing Partner로서 $12M 규모의 첫 펀드를 클로징했습니다. 시카고대학교 로스쿨 졸업. 크로스보더 딜메이킹, 펀드레이징, 생태계 구축 전문성을 JD Alchemy의 벤처 스튜디오 모델에 기여하고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-controls">
+                <button class="carousel-btn" id="teamPrev" onclick="moveTeam(-1)">&#8592;</button>
+                <div id="teamDots" class="carousel-dots"></div>
+                <span class="carousel-counter" id="teamCounter">1 / 2</span>
+                <button class="carousel-btn" id="teamNext" onclick="moveTeam(1)">&#8594;</button>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta">
+            <h2>이제 혼자 영업하실 <em>필요 없습니다.</em></h2>
+            <p class="cta-subheadline">30분 상담으로 귀사의 GTM 갭을 분석하고, 저희가 구축할 시스템을 구체적으로 보여드립니다. 피치 덱 없이, 파이프라인 플랜만 제시합니다.</p>
+
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">성함</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">회사명</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="challenge">현재 가장 큰 GTM 과제는 무엇입니까?</label>
+                    <textarea id="challenge" name="challenge" required></textarea>
+                </div>
+                <button type="submit" class="form-submit">전략 상담 예약하기</button>
+            </form>
+
+            <div class="cta-alternative">
+                이메일로 직접 연락하기: <a href="mailto:jay@jdalchemy.com">jay@jdalchemy.com</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">JD Alchemy</div>
+            <div class="footer-copyright">© 2026 JD Alchemy Holdings. 싱가포르.</div>
+        </div>
+    </footer>
+
+    <script>
+        // Case Studies Carousel
+        let carouselIndex = 0;
+        const carousel = document.getElementById('caseCarousel');
+        const slides = carousel.querySelectorAll('.case-study');
+        const totalSlides = slides.length;
+        const dotsContainer = document.getElementById('carouselDots');
+        const counterEl = document.getElementById('carouselCounter');
+
+        function buildDots() {
+            dotsContainer.innerHTML = '';
+            for (let i = 0; i < totalSlides; i++) {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === carouselIndex ? ' active' : '');
+                dot.onclick = () => { carouselIndex = i; updateCarousel(); };
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        function updateCarousel() {
+            if (carouselIndex < 0) carouselIndex = 0;
+            if (carouselIndex >= totalSlides) carouselIndex = totalSlides - 1;
+
+            carousel.style.transform = 'translateX(-' + (carouselIndex * 100) + '%)';
+
+            document.getElementById('carouselPrev').disabled = carouselIndex === 0;
+            document.getElementById('carouselNext').disabled = carouselIndex >= totalSlides - 1;
+
+            counterEl.textContent = (carouselIndex + 1) + ' / ' + totalSlides;
+
+            dotsContainer.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+                dot.className = 'carousel-dot' + (i === carouselIndex ? ' active' : '');
+            });
+        }
+
+        function moveCarousel(dir) {
+            carouselIndex += dir;
+            updateCarousel();
+        }
+
+        buildDots();
+        updateCarousel();
+
+        // Team Carousel
+        let teamIndex = 0;
+        const teamCarousel = document.getElementById('teamCarousel');
+        const teamSlides = teamCarousel.querySelectorAll('.team-slide');
+        const teamTotal = teamSlides.length;
+        const teamDotsEl = document.getElementById('teamDots');
+        const teamCounterEl = document.getElementById('teamCounter');
+
+        function buildTeamDots() {
+            teamDotsEl.innerHTML = '';
+            for (let i = 0; i < teamTotal; i++) {
+                const dot = document.createElement('button');
+                dot.className = 'carousel-dot' + (i === teamIndex ? ' active' : '');
+                dot.onclick = () => { teamIndex = i; updateTeam(); };
+                teamDotsEl.appendChild(dot);
+            }
+        }
+
+        function updateTeam() {
+            if (teamIndex < 0) teamIndex = 0;
+            if (teamIndex >= teamTotal) teamIndex = teamTotal - 1;
+            teamCarousel.style.transform = 'translateX(-' + (teamIndex * 100) + '%)';
+            document.getElementById('teamPrev').disabled = teamIndex === 0;
+            document.getElementById('teamNext').disabled = teamIndex >= teamTotal - 1;
+            teamCounterEl.textContent = (teamIndex + 1) + ' / ' + teamTotal;
+            teamDotsEl.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+                dot.className = 'carousel-dot' + (i === teamIndex ? ' active' : '');
+            });
+        }
+
+        function moveTeam(dir) {
+            teamIndex += dir;
+            updateTeam();
+        }
+
+        buildTeamDots();
+        updateTeam();
+
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        const navItems = navLinks.querySelectorAll('a');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Form Submission Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const company = document.getElementById('company').value;
+            const email = document.getElementById('email').value;
+            const challenge = document.getElementById('challenge').value;
+
+            // Log the form data (in production, this would send to a backend)
+            console.log('Form submitted:', { name, company, email, challenge });
+
+            // Simulate success message
+            const form = event.target;
+            const submitBtn = form.querySelector('.form-submit');
+            const originalText = submitBtn.textContent;
+
+            submitBtn.textContent = '이메일을 확인해 주세요!';
+            submitBtn.disabled = true;
+
+            setTimeout(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+                form.reset();
+            }, 3000);
+        }
+
+        // Smooth scroll behavior for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll animation trigger for elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.animation = 'slideUp 0.8s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
