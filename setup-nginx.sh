@@ -11,8 +11,8 @@ set -e
 DOMAIN="${DOMAIN:-aistudio.jdalchemy.com}"
 APP_PORT="${APP_PORT:-3025}"
 EMAIL="${EMAIL:-jay@jdalchemy.com}"
-# Include www in certificate + server_name (set false if DNS for www is not set)
-INCLUDE_WWW="${INCLUDE_WWW:-true}"
+# Include www in certificate + server_name (default: false)
+INCLUDE_WWW="${INCLUDE_WWW:-false}"
 
 # App directory: same as deploy.sh clone target; auto-detect if this script lives in the repo
 SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}" 2>/dev/null || realpath "${BASH_SOURCE[0]}" 2>/dev/null || echo "${BASH_SOURCE[0]}")"
