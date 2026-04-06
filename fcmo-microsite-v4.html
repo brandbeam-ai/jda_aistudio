@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JD Alchemy builds the AI-powered GTM engine that runs while you lead — outbound, ABM, content, pipeline — so deeptech companies can focus on product and close deals.">
+    <meta name="keywords" content="GTM, go-to-market, deeptech, B2B, outbound, pipeline, SaaS, AI Operating System, AIOS, fractional CMO">
+    <meta name="author" content="JD Alchemy">
+    <meta property="og:title" content="Building The AI-powered GTM Engine That Runs While You Lead. | JD Alchemy">
+    <meta property="og:description" content="JD Alchemy builds the AI-powered GTM engine that runs while you lead — outbound, ABM, content, pipeline — so deeptech companies can focus on product and close deals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcmo.jdalchemy.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Building The AI-powered GTM Engine That Runs While You Lead. | JD Alchemy">
+    <meta name="twitter:description" content="JD Alchemy builds the AI-powered GTM engine that runs while you lead — outbound, ABM, content, pipeline — so deeptech companies can focus on product and close deals.">
+    <title>Building The AI-powered GTM Engine That Runs While You Lead. | JD Alchemy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--font-display:'Instrument Serif',Georgia,serif;--font-body:'Outfit',system-ui,sans-serif}
+        html{scroll-behavior:smooth}
+        body{font-family:var(--font-body);background-color:#0a0a0a;color:#f5f5f5;line-height:1.6;overflow-x:hidden}
+        header{position:fixed;top:0;left:0;right:0;background:rgba(10,10,10,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(196,165,90,0.1);z-index:1000;padding:1rem 2rem}
+        nav{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:1.5rem;font-weight:700;color:#c4a55a;text-decoration:none;letter-spacing:-0.5px}
+        .nav-links{display:flex;gap:2rem;list-style:none;align-items:center}
+        .nav-links a{color:#b0b0b0;text-decoration:none;font-size:0.95rem;transition:color .3s;font-weight:500}
+        .nav-links a:hover{color:#c4a55a}
+        .lang-toggle{background:rgba(196,165,90,0.15);color:#c4a55a!important;padding:.5rem 1rem;border-radius:6px;font-size:.85rem;font-weight:600;border:1px solid rgba(196,165,90,0.3);transition:all .3s}
+        .lang-toggle:hover{background:rgba(196,165,90,0.25);border-color:#c4a55a}
+        .cta-nav{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white;padding:.75rem 1.5rem;border-radius:6px;font-size:.9rem;font-weight:600;transition:all .3s;border:none;cursor:pointer}
+        .cta-nav:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(196,165,90,0.3)}
+        .mobile-menu-toggle{display:none;flex-direction:column;cursor:pointer;background:none;border:none}
+        .mobile-menu-toggle span{width:25px;height:3px;background:#c4a55a;margin:5px 0;transition:.3s;border-radius:2px}
+        main{margin-top:60px}
+        section{padding:5rem calc((100% - 1200px)/2 + 2rem)}
+        @media(max-width:1240px){section{padding:5rem 2rem}}
+        h1{font-family:var(--font-display);font-size:3.5rem;font-weight:400;margin-bottom:1rem;line-height:1.2;color:#fff}
+        h1 em,h2 em{font-family:var(--font-display);font-style:italic;color:#c4a55a;-webkit-text-fill-color:#c4a55a}
+        h2{font-family:var(--font-display);font-size:2.5rem;font-weight:400;margin-bottom:1.5rem;color:#fff}
+        h3{font-family:var(--font-display);font-size:1.5rem;font-weight:400;margin-bottom:.75rem;color:#fff}
+        #hero{padding:8rem 2rem 4rem;text-align:center;position:relative;overflow:visible;background:radial-gradient(ellipse at 80% 10%,rgba(196,165,90,0.12) 0%,transparent 50%),radial-gradient(ellipse at 20% 80%,rgba(232,220,200,0.08) 0%,transparent 50%)}
+        #hero>*{position:relative;z-index:1}
+        .hero-subheadline{font-size:1.35rem;color:#b0b0b0;margin-bottom:2.5rem;max-width:900px;margin-left:auto;margin-right:auto;line-height:1.8;font-weight:400}
+        .cta-buttons{display:flex;gap:1.5rem;justify-content:center;margin-bottom:4rem;flex-wrap:wrap}
+        .btn-primary,.btn-secondary{padding:1rem 2rem;font-size:1rem;font-weight:600;border-radius:8px;text-decoration:none;cursor:pointer;border:none;transition:all .3s;font-family:var(--font-body)}
+        .btn-primary{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white}
+        .btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(196,165,90,0.4)}
+        .btn-secondary{background:transparent;color:#c4a55a;border:2px solid #c4a55a}
+        .btn-secondary:hover{background:rgba(196,165,90,0.1);transform:translateY(-3px)}
+        .stats-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:4rem;padding-top:3rem;border-top:1px solid rgba(196,165,90,0.15);animation:slideUp .8s ease-out .3s both}
+        .stat-item{text-align:center}
+        .stat-item strong{color:#c4a55a;font-size:1.1rem}
+        .stat-item p{color:#888;font-size:.9rem;margin-top:.5rem}
+        #problem{background:linear-gradient(180deg,rgba(196,165,90,0.05) 0%,rgba(232,220,200,0.02) 100%)}
+        .problem-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .problem-card{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2rem;border-radius:12px;transition:all .3s}
+        .problem-card:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .problem-card .stat-highlight{font-size:2.2rem;font-weight:700;color:#c4a55a;margin-bottom:.5rem}
+        .problem-card h3{color:#c4a55a;margin-bottom:1rem}
+        .problem-card p{color:#b0b0b0;line-height:1.7}
+        .problem-card .problem-punchline{margin-top:1rem;padding-top:.75rem;border-top:1px solid rgba(196,165,90,0.15);color:#c4a55a;font-size:.9rem;font-weight:600}
+        .problem-bottom{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2);color:#b0b0b0;font-size:1.2rem;font-weight:500}
+        #alternatives{background:rgba(196,165,90,0.03)}
+        .alt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .alt-card{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2rem;border-radius:12px;transition:all .3s}
+        .alt-card:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .alt-card h3{color:#fff;margin-bottom:1rem}
+        .alt-card p{color:#b0b0b0;line-height:1.7;margin-bottom:.75rem}
+        .alt-card .alt-punchline{color:#e8744f;font-size:.9rem;font-weight:600;font-style:italic;margin-top:1rem}
+        #jay{background:rgba(196,165,90,0.05)}
+        .jay-container{display:grid;grid-template-columns:1fr 1.5fr;gap:3rem;align-items:center;animation:slideUp .8s ease-out .2s both}
+        .jay-photo{width:280px;height:280px;background:linear-gradient(135deg,#c4a55a 0%,#e8dcc8 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:4rem;font-weight:700;color:white;margin:0 auto}
+        .jay-bio{color:#b0b0b0;line-height:1.8;margin-bottom:1.5rem}
+        .jay-bio strong{color:#fff}
+        .jay-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:2rem}
+        .jay-stat{background:rgba(196,165,90,0.1);padding:1.5rem;border-radius:8px;border-left:3px solid #c4a55a}
+        .jay-stat strong{color:#c4a55a;display:block;font-size:1.2rem;margin-bottom:.5rem}
+        .jay-stat span{color:#888;font-size:.9rem}
+        #aios{background:linear-gradient(180deg,rgba(232,220,200,0.02) 0%,rgba(196,165,90,0.05) 100%)}
+        .aios-layers{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:2rem;max-width:800px;margin-left:auto;margin-right:auto;animation:slideUp .8s ease-out .2s both}
+        .aios-layer{display:grid;grid-template-columns:80px 1fr;gap:1.5rem;align-items:center;background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:1.5rem 2rem;border-radius:12px;transition:all .3s}
+        .aios-layer:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateX(8px)}
+        .aios-layer-label{font-size:.8rem;font-weight:700;color:#c4a55a;text-transform:uppercase;letter-spacing:1px;text-align:center}
+        .aios-layer-label span{display:block;font-size:1.1rem;color:#fff;text-transform:none;letter-spacing:0;font-family:var(--font-display);margin-top:.25rem}
+        .aios-layer-desc{color:#b0b0b0;font-size:1.05rem}
+        #what{background:rgba(196,165,90,0.03)}
+        .phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .phase{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2.5rem;border-radius:12px;transition:all .3s}
+        .phase:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .phase h3{color:#c4a55a;margin-bottom:.5rem;font-size:1.3rem}
+        .phase-subtitle{color:#888;font-size:1.05rem;margin-bottom:1.5rem}
+        .phase ul{list-style:none}
+        .phase li{color:#b0b0b0;margin-bottom:1rem;padding-left:1.5rem;position:relative}
+        .phase li::before{content:'✓';position:absolute;left:0;color:#e8dcc8;font-weight:bold}
+        .what-bottom{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2)}
+        .what-bottom p{color:#b0b0b0;font-size:1.1rem;font-weight:500}
+        #cases{background:linear-gradient(180deg,rgba(196,165,90,0.05) 0%,rgba(232,220,200,0.02) 100%)}
+        .case-studies{position:relative;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .case-carousel-wrapper{overflow:hidden;padding:4px;margin:-4px}
+        .case-carousel{display:flex;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+        .case-study{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2.5rem 3rem;border-radius:12px;transition:background .3s,border-color .3s;width:100%;min-width:100%;box-sizing:border-box;flex-shrink:0}
+        .case-study:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4)}
+        .carousel-controls{display:flex;justify-content:center;align-items:center;gap:1.5rem;margin-top:2rem}
+        .carousel-btn{width:48px;height:48px;border-radius:50%;border:1px solid rgba(196,165,90,0.4);background:rgba(196,165,90,0.08);color:#c4a55a;font-size:1.2rem;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center}
+        .carousel-btn:hover{background:rgba(196,165,90,0.2);border-color:#c4a55a}
+        .carousel-btn:disabled{opacity:.3;cursor:default}
+        .carousel-dots{display:flex;gap:.5rem}
+        .carousel-dot{width:8px;height:8px;border-radius:50%;background:rgba(196,165,90,0.25);transition:all .3s;cursor:pointer;border:none}
+        .carousel-dot.active{background:#c4a55a;width:24px;border-radius:4px}
+        .carousel-counter{color:#a0a0a0;font-size:.9rem}
+        .case-tag{display:inline-block;background:rgba(196,165,90,0.15);color:#c4a55a;padding:.5rem 1.2rem;border-radius:20px;font-size:.9rem;font-weight:600;margin-bottom:1rem}
+        .case-study h3{color:#fff;margin-bottom:1rem;font-size:1.8rem;font-weight:700}
+        .case-section{margin-bottom:1rem}
+        .case-section-label{color:#c4a55a;font-size:.95rem;font-weight:600;text-transform:uppercase;margin-bottom:.4rem}
+        .case-section-text{color:#b0b0b0;line-height:1.8;font-size:1.05rem}
+        .case-results{background:rgba(232,220,200,0.12);padding:2rem;border-radius:10px;border-left:4px solid #c4a55a;margin-top:1.5rem}
+        .case-results .case-section-label{color:#c4a55a;font-size:1rem;letter-spacing:1.5px}
+        .case-results .case-section-text{color:#e8dcc8;font-size:1.15rem;line-height:1.8}
+        .case-layers-tag{display:inline-block;background:rgba(196,165,90,0.1);color:#888;padding:.25rem .75rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:1rem;margin-left:.5rem}
+        #packages{background:linear-gradient(180deg,rgba(232,220,200,0.03) 0%,rgba(196,165,90,0.05) 100%)}
+        .packages-intro{text-align:center;margin-bottom:2rem}
+        .packages-intro p{color:#b0b0b0;font-size:1.2rem;margin-top:.5rem}
+        .package-section-label{text-align:center;color:#c4a55a;font-size:1.6rem;font-weight:700;letter-spacing:1px;margin-bottom:1.5rem;margin-top:3rem}
+        .package-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem;margin-top:1rem;animation:slideUp .8s ease-out .2s both}
+        .package{background:rgba(255,255,255,0.03);border:2px solid rgba(196,165,90,0.2);padding:2.5rem;border-radius:12px;transition:all .3s;position:relative}
+        .package:hover{border-color:rgba(196,165,90,0.5);background:rgba(255,255,255,0.05);transform:translateY(-8px);box-shadow:0 12px 32px rgba(196,165,90,0.15)}
+        .package-popular{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white;padding:.3rem 1.2rem;border-radius:20px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+        .package-price{font-size:2.5rem;font-weight:700;color:#c4a55a;margin-bottom:.5rem}
+        .package-name{color:#fff;font-size:1.3rem;font-weight:700;margin-bottom:.5rem}
+        .package-subtitle{color:#888;font-size:.95rem;margin-bottom:1.5rem}
+        .package-duration{color:#c4a55a;font-size:.9rem;font-weight:600;margin-bottom:1.5rem}
+        .package-includes{color:#b0b0b0;font-size:.95rem;line-height:1.8;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(196,165,90,0.2)}
+        .package-best{color:#888;font-size:.85rem;font-style:italic}
+        .package-footer{text-align:center;margin-top:2rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2);color:#888;font-size:.9rem}
+        .package-footer a{color:#c4a55a;text-decoration:none}
+        #who{background:rgba(196,165,90,0.03)}
+        .verticals{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;animation:slideUp .8s ease-out .2s both}
+        .vertical-tag{background:rgba(196,165,90,0.15);color:#c4a55a;padding:.6rem 1.2rem;border-radius:24px;font-size:.9rem;font-weight:600;transition:all .3s}
+        .vertical-tag:hover{background:rgba(196,165,90,0.25);transform:translateY(-2px)}
+        .who-description{color:#b0b0b0;line-height:1.8;margin-bottom:3rem;max-width:800px}
+        .logos-label{color:#888;font-size:.9rem;text-transform:uppercase;font-weight:600;margin-bottom:1.5rem;text-align:center}
+        .logos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:2rem;padding:2rem;background:rgba(255,255,255,0.02);border-radius:12px;border:1px solid rgba(196,165,90,0.1)}
+        .logo-placeholder{text-align:center;padding:1rem;border-radius:8px;display:flex;align-items:center;justify-content:center;transition:all .3s;opacity:.55}
+        .logo-placeholder:hover{opacity:.85}
+        #cta{background:rgba(196,165,90,0.08);text-align:center}
+        #cta h2{margin-bottom:.75rem}
+        .cta-subheadline{color:#b0b0b0;font-size:1.2rem;max-width:700px;margin:1.5rem auto 2.5rem;line-height:1.8}
+        .contact-form{max-width:600px;margin:0 auto 2rem;display:grid;gap:1.5rem;animation:slideUp .8s ease-out .3s both}
+        .form-group{display:flex;flex-direction:column;gap:.5rem}
+        .form-group label{color:#b0b0b0;font-size:.95rem;font-weight:500;text-align:left}
+        .form-group input,.form-group textarea{background:rgba(255,255,255,0.05);border:1px solid rgba(196,165,90,0.3);color:#fff;padding:1rem;border-radius:8px;font-family:var(--font-body);font-size:1rem;transition:all .3s}
+        .form-group input:focus,.form-group textarea:focus{outline:none;background:rgba(255,255,255,0.08);border-color:#c4a55a;box-shadow:0 0 0 3px rgba(196,165,90,0.1)}
+        .form-group textarea{resize:vertical;min-height:120px}
+        .form-submit{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white;padding:1rem 2rem;border:none;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;transition:all .3s;font-family:var(--font-body)}
+        .form-submit:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(196,165,90,0.4)}
+        .cta-alternative{color:#b0b0b0;margin-top:1rem}
+        .cta-alternative a{color:#c4a55a;text-decoration:none;font-weight:600;transition:color .3s}
+        .cta-alternative a:hover{color:#d4b96a}
+        footer{background:rgba(0,0,0,0.4);border-top:1px solid rgba(196,165,90,0.1);padding:3rem 2rem;text-align:center;color:#888}
+        .footer-content{max-width:1200px;margin:0 auto}
+        .footer-logo{font-size:1.3rem;font-weight:700;color:#c4a55a;margin-bottom:1rem}
+        .footer-copyright{color:#666;font-size:.9rem}
+        @keyframes slideUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+        @media(max-width:768px){
+            header{padding:.75rem 1.5rem}
+            .nav-links{display:none}
+            .nav-links.active{display:flex;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:rgba(10,10,10,0.98);padding:1.5rem;gap:1rem;border-bottom:1px solid rgba(196,165,90,0.1);z-index:999}
+            .mobile-menu-toggle{display:flex}
+            section{padding:3rem 1.5rem}
+            h1{font-size:2.5rem}h2{font-size:1.8rem}h3{font-size:1.2rem}
+            .hero-subheadline{font-size:1rem}
+            .cta-buttons{flex-direction:column;gap:1rem}
+            .btn-primary,.btn-secondary{width:100%}
+            .jay-container{grid-template-columns:1fr;gap:2rem}
+            .jay-photo{width:200px;height:200px;font-size:3rem}
+            .jay-stats{grid-template-columns:1fr}
+            .problem-cards,.phases,.package-grid,.alt-grid{grid-template-columns:1fr}
+            .logos-grid{grid-template-columns:repeat(2,1fr)}
+            .stats-bar{grid-template-columns:1fr;gap:1.5rem}
+            .verticals{justify-content:center}
+            .aios-layer{grid-template-columns:60px 1fr;padding:1.25rem 1.5rem}
+        }
+        @media(max-width:480px){
+            h1{font-size:2rem}h2{font-size:1.5rem}
+            section{padding:2rem 1rem}
+            .logo{font-size:1.2rem}
+            .hero-subheadline{font-size:.95rem}
+            .cta-nav{padding:.6rem 1.2rem;font-size:.85rem}
+            .jay-photo{width:150px;height:150px;font-size:2rem}
+            .logos-grid{grid-template-columns:1fr}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#hero" class="logo">JD Alchemy</a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#aios">The AIOS</a></li>
+                <li><a href="#what">How It Works</a></li>
+                <li><a href="#cases">Results</a></li>
+                <li><a href="#packages">Pricing</a></li>
+                <li><a href="#who">For Who</a></li>
+                <li><a href="/ko" class="lang-toggle">한국어</a></li>
+                <li><button class="cta-nav" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Book Call</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Building The AI-powered GTM Engine<br>That Runs While <em>You Lead.</em></h1>
+            <p class="hero-subheadline">JD Alchemy builds the complete AI Operating System for your go-to-market &mdash; strategy, outbound, ABM, content, pipeline &mdash; deployed layer by layer so deeptech companies can focus on product and close deals.</p>
+            <div class="cta-buttons">
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Book a Strategy Call</button>
+                <button class="btn-secondary" onclick="document.getElementById('aios').scrollIntoView({behavior:'smooth'})">See The AIOS</button>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item"><strong>130+ GTM Sprints</strong><p>Real execution across 4 portfolio companies</p></div>
+                <div class="stat-item"><strong>570+ Assets Shipped</strong><p>Proprietary assets deployed at scale</p></div>
+                <div class="stat-item"><strong>$150M+ Ecosystem Value</strong><p>Influenced across portfolio ventures</p></div>
+                <div class="stat-item"><strong>6B+ Content Views</strong><p>Across portfolio content systems</p></div>
+            </div>
+        </section>
+
+        <section id="problem">
+            <h2>The B2B GTM Ops Is <em>Broken by Design</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:2rem;">These are not edge cases. They are the structural conditions your competitors are also operating under.</p>
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <div class="stat-highlight">65%</div>
+                    <h3>Humans Can't Keep Up</h3>
+                    <p>SDRs spend 65% of their working hours on inbox management, manual CRM updates, and context gathering. Meanwhile, responding in under 5 minutes is 21&times; more effective than a 30-minute delay.</p>
+                    <div class="problem-punchline">$0 pipeline from 65% of paid hours</div>
+                </div>
+                <div class="problem-card">
+                    <div class="stat-highlight">25%</div>
+                    <h3>The Marketing Data Mirage</h3>
+                    <p>High open rates. Healthy click-throughs. Zero revenue. An estimated 25% of B2B marketing budgets are consumed by campaigns that produce superficial engagement metrics but generate no closed-won pipeline.</p>
+                    <div class="problem-punchline">1 in 4 marketing dollars: invisible ROI</div>
+                </div>
+                <div class="problem-card">
+                    <div class="stat-highlight">10</div>
+                    <h3>Single-Threaded Outreach Fails</h3>
+                    <p>Modern B2B buying groups average 10 decision-makers across multiple departments &mdash; 52% at VP level or above. Most outbound sequences target one contact and wonder why deals stall.</p>
+                    <div class="problem-punchline">52% VP+ involvement required per deal</div>
+                </div>
+            </div>
+            <div class="problem-bottom">None of these reliably deliver: fast pipeline + execution certainty + operational ownership + results without founder burden.</div>
+        </section>
+
+        <section id="alternatives">
+            <h2>Strong Product. <em>The Wrong Support System.</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:2rem;">Every alternative fails where it matters most.</p>
+            <div class="alt-grid">
+                <div class="alt-card">
+                    <h3>DIY / Founder-Run</h3>
+                    <p>Founder runs GTM manually &mdash; no system, no attribution. Burning $300&ndash;$500/hr equivalent of founder time on admin. Growth stops the moment the founder steps back.</p>
+                    <div class="alt-punchline">Free on paper. Devastating in practice.</div>
+                </div>
+                <div class="alt-card">
+                    <h3>Traditional Agency</h3>
+                    <p>$7&ndash;15K/month retainer &mdash; output billed, not outcomes. 4&ndash;6 week ramp before any campaign goes live. You manage the brief, approvals, and strategy daily.</p>
+                    <div class="alt-punchline">Activity without accountability. High cost, little ownership.</div>
+                </div>
+                <div class="alt-card">
+                    <h3>Full-Time CGO Hire</h3>
+                    <p>$80&ndash;150K/year + benefits &mdash; before any result is visible. 2&ndash;3 months to hire, onboard, and build a team first. Strategy ownership with no pipeline accountability.</p>
+                    <div class="alt-punchline">Too slow. Too expensive. Rarely accountable for pipeline.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jay">
+            <h2>Decades of Results. <em>Global Influence.</em></h2>
+            <div class="jay-container">
+                <div class="jay-photo">JJ</div>
+                <div>
+                    <p class="jay-bio"><strong>Jay Jin</strong> &mdash; 15 years engineering GTM systems at the intersection of influence, automation, and revenue. Built and scaled <strong>15 YouTube Gold Button (1M+ subs)</strong> and <strong>50+ Silver Button</strong> channels from zero &mdash; not as a creator, but as a systems architect designing the acquisition and monetisation loops behind each one.</p>
+                    <p class="jay-bio">Venture-built <strong>20+ founder businesses</strong> from first asset to product launch and fundraising close across Korea, Japan, and Vietnam, using influence as a capital-efficient distribution channel. Clients include LINE (Naver) and high-stakes political campaigns where precision and outcome accountability are non-negotiable.</p>
+                    <div class="jay-stats">
+                        <div class="jay-stat"><strong>130+ GTM Sprints</strong><span>Across 4 portfolio companies</span></div>
+                        <div class="jay-stat"><strong>$150M+ Ecosystem Value</strong><span>Influenced across ventures</span></div>
+                        <div class="jay-stat"><strong>10,000+ Assets</strong><span>Proprietary assets shipped</span></div>
+                        <div class="jay-stat"><strong>6B+ Content Views</strong><span>Across portfolio content systems</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aios">
+            <h2>The AI Operating System <em>for GTM.</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:.5rem;max-width:800px;margin-left:auto;margin-right:auto;">Five compounding layers &mdash; each building on the last &mdash; that transform a manual, founder-dependent GTM into a scalable, AI-run engine.</p>
+            <p style="text-align:center;color:#888;margin-bottom:2.5rem;font-size:.95rem;">Most companies have zero layers running as a connected system. JDA deploys all five, in sequence, starting with your GTM motion.</p>
+            <div class="aios-layers">
+                <div class="aios-layer"><div class="aios-layer-label">L1<span>Context</span></div><div class="aios-layer-desc">The AI knows your business as well as you do &mdash; model, team, goals, processes, strategy.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L2<span>Data</span></div><div class="aios-layer-desc">One dashboard instead of logging into 8 platforms every morning &mdash; revenue, traffic, CRM, meetings.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L3<span>Intelligence</span></div><div class="aios-layer-desc">A 5-minute morning read that replaces 2 hours of context-switching &mdash; what happened, what matters, what's next.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L4<span>Automation</span></div><div class="aios-layer-desc">The entire GTM engine runs without you &mdash; outbound, ABM, content engines, AI search indexing.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L5<span>Growth</span></div><div class="aios-layer-desc">You work on the business, not in it. This layer is reached when Layers 1&ndash;4 are fully operational.</div></div>
+            </div>
+            <div style="text-align:center;margin-top:2.5rem;color:#888;font-size:.95rem;font-style:italic;">The full AI OS is the destination. GTM is the entry point.</div>
+        </section>
+
+        <section id="what">
+            <h2>Every Layer of the AIOS &mdash;<br>Applied to <em>Your GTM.</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:.5rem;font-size:1.15rem;">8 modules, each mapped to a specific AIOS layer, each with defined tools and measurable outputs.</p>
+            <p style="text-align:center;color:#c4a55a;font-weight:600;margin-bottom:2.5rem;font-size:1.05rem;">&#9889; Campaigns live by Day 30 &middot; First performance data by Day 60 &middot; Full system operational by Day 90</p>
+            <div class="phases">
+                <div class="phase">
+                    <h3>Foundation Layers (L1&ndash;L3)</h3>
+                    <div class="phase-subtitle">Weeks 1&ndash;6 &mdash; Context, Data, Intelligence</div>
+                    <ul>
+                        <li><strong>Context Foundation:</strong> GTM strategy, ICP definition, positioning, messaging framework</li>
+                        <li><strong>Proof Foundation + Content Strategy:</strong> Case studies, ROI calculators, content angle bank</li>
+                        <li><strong>Funnel Infrastructure:</strong> CRM setup, attribution configuration, campaign reporting</li>
+                        <li><strong>Live Intelligence Engine:</strong> Reply intel, health checks, reports, optimisation, strategy calls</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>Automation Layer (L4)</h3>
+                    <div class="phase-subtitle">Weeks 7&ndash;8+ &mdash; The Pipeline Machine</div>
+                    <ul>
+                        <li><strong>Outbound Engine:</strong> 500&ndash;1,000 scored leads, live email + LinkedIn campaigns</li>
+                        <li><strong>Account-Based Marketing:</strong> 50&ndash;100 named accounts, decision-maker mapping, coordinated outreach</li>
+                        <li><strong>LinkedIn Content Engine (B2B):</strong> 8&ndash;12 strategic video assets per cycle</li>
+                        <li><strong>AMS Content Engine (B2C):</strong> 200&ndash;400 short-form videos per 90-day cycle</li>
+                        <li><strong>AEO Content Engine:</strong> 4&ndash;6 articles/month for AI search indexing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="what-bottom">
+                <p>3.5 months from kickoff to a fully operating AI GTM OS.</p>
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})" style="margin-top:1.5rem;">Start Your Sprint</button>
+            </div>
+        </section>
+
+        <section id="cases">
+            <h2>The System Has <em>Already Delivered.</em></h2>
+            <div class="case-studies">
+                <div class="case-carousel-wrapper">
+                <div class="case-carousel" id="caseCarousel">
+                    <div class="case-study">
+                        <div class="case-tag">Content Commerce &middot; B2B2C &middot; Pre-Series A</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>WIT Global</h3>
+                        <div class="case-section"><div class="case-section-label">Challenge</div><p class="case-section-text">Content platform with real traction but no systematic growth engine. User acquisition unpredictable. Ad revenue stagnant.</p></div>
+                        <div class="case-section"><div class="case-section-label">What We Built</div><p class="case-section-text">Full GTM sprint across AIOS Layers 1&ndash;4 &mdash; content strategy overhaul, distribution channel optimisation, audience targeting, and performance infrastructure.</p></div>
+                        <div class="case-results"><div class="case-section-label">The Results</div><p class="case-section-text"><strong>7&times; MAU growth. 5&times; ad revenue growth.</strong> Successfully raised pre-Series A funding.</p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">AI Risk Intelligence &middot; Fintech B2B</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>Cyber Cert</h3>
+                        <div class="case-section"><div class="case-section-label">Challenge</div><p class="case-section-text">Powerful product for fund manager due diligence &mdash; but no outbound engine. Pipeline was 100% founder-dependent.</p></div>
+                        <div class="case-section"><div class="case-section-label">What We Built</div><p class="case-section-text">Systematic outbound pipeline from zero &mdash; lead lists, messaging sequences, LinkedIn outreach, and meeting booking infrastructure. Live campaigns within 30 days.</p></div>
+                        <div class="case-results"><div class="case-section-label">The Results</div><p class="case-section-text"><strong>Systematic pipeline built from zero. Live campaigns in 30 days. Qualified meetings booked.</strong></p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">AI Media Scaling &middot; B2C DTC Beauty &amp; Health</div><span class="case-layers-tag">All 5 Layers &mdash; Full AIOS</span>
+                        <h3>Digicon</h3>
+                        <div class="case-section"><div class="case-section-label">Challenge</div><p class="case-section-text">AI-powered short-form video engine with zero GTM for Korea or US. No brand acquisition system, no distribution partnerships.</p></div>
+                        <div class="case-section"><div class="case-section-label">What We Built</div><p class="case-section-text">End-to-end GTM across all 5 AIOS layers &mdash; brand acquisition engine, distribution channel partnerships, and performance marketing for Korea and US markets.</p></div>
+                        <div class="case-results"><div class="case-section-label">The Results</div><p class="case-section-text"><strong>6B+ content views. 40+ brands onboarded in Year 1. #1 Presidential Award</strong> at Young Tech Startup Grand Challenge.</p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">Brand Intelligence SaaS</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>BrandBeam</h3>
+                        <div class="case-section"><div class="case-section-label">Challenge</div><p class="case-section-text">Strong technology but no GTM motion. Needed ICP definition, outbound strategy, and first customers built from zero.</p></div>
+                        <div class="case-section"><div class="case-section-label">What We Built</div><p class="case-section-text">Full GTM strategy from concept to launch &mdash; ICP definition, outbound engine, enterprise sales playbook, and pilot customer acquisition program.</p></div>
+                        <div class="case-results"><div class="case-section-label">The Results</div><p class="case-section-text"><strong>50+ enterprise pilots within 90 days from zero.</strong> Self-sustaining growth engine established.</p></div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev">&#8592;</button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <span class="carousel-counter" id="carouselCounter">1 / 4</span>
+                    <button class="carousel-btn" id="carouselNext">&#8594;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <div class="packages-intro">
+                <h2>Predictable Investment. <em>Scalable Impact.</em></h2>
+                <p>Same proven AIOS system. Scaled to your stage and ambition.</p>
+            </div>
+            <div class="package-section-label">B2B Deeptech &amp; Technical SaaS</div>
+            <div class="package-grid">
+                <div class="package">
+                    <div class="package-price">$30,000</div>
+                    <div class="package-name">Outbound Foundation</div>
+                    <div class="package-subtitle">Scaling Existing Market</div>
+                    <div class="package-duration">60 Days &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + Outbound Engine</div>
+                    <div class="package-includes">&#10003; GTM strategy + ICP definition<br>&#10003; 500&ndash;1,000 scored, verified leads<br>&#10003; Live email + LinkedIn campaigns<br>&#10003; CRM + attribution configured<br>&#10003; End-of-sprint performance report</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Learn More</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$45,000</div>
+                    <div class="package-name">Market Entry</div>
+                    <div class="package-subtitle">New Market Expansion</div>
+                    <div class="package-duration">90 Days &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + Outbound Engine + Account-Based Marketing</div>
+                    <div class="package-includes">&#10003; All of Tier 1, plus:<br>&#10003; Case study + ROI calculator<br>&#10003; 50&ndash;100 named ABM accounts<br>&#10003; Decision-maker mapping (2&ndash;3 per account)<br>&#10003; LinkedIn Ads strategic plan</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Learn More</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$60,000</div>
+                    <div class="package-name">Full AIOS GTM</div>
+                    <div class="package-subtitle">Aggressive Market Capture</div>
+                    <div class="package-duration">90-Day Sprint + 3-Mo Ops &middot; All 8 B2B Modules</div>
+                    <div class="package-includes">&#10003; All of Tier 2, plus:<br>&#10003; LinkedIn Content Engine (8&ndash;12 assets/cycle)<br>&#10003; AEO Content Engine (4&ndash;6 articles/month)<br>&#10003; Monthly reports + strategy calls<br>&#10003; Equity conversation eligible at 6 mo+</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Learn More</button>
+                </div>
+            </div>
+            <div class="package-section-label">B2C DTC Brands</div>
+            <div class="package-grid" style="grid-template-columns:repeat(auto-fit,minmax(340px,1fr));">
+                <div class="package">
+                    <div class="package-price">$35,000</div>
+                    <div class="package-name">Content Foundation</div>
+                    <div class="package-subtitle">DTC Brands &mdash; Content Engine Build</div>
+                    <div class="package-duration">90 Days &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + AMS Content Engine (Standard)<br><span style="color:#c4a55a;font-size:.85rem;">+ client ad spend</span></div>
+                    <div class="package-includes">&#10003; Consumer brand positioning + ICP<br>&#10003; Brand story + proof asset document<br>&#10003; Brand performance tracking (CRM/attribution)<br>&#10003; 200 short-form videos<br>&#10003; Monthly performance report + strategy call</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Learn More</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$50,000</div>
+                    <div class="package-name">Content Scale</div>
+                    <div class="package-subtitle">DTC Brands &mdash; Volume + Paid Optimisation</div>
+                    <div class="package-duration">90 Days &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + AMS Content Engine (Scale)<br><span style="color:#c4a55a;font-size:.85rem;">+ client ad spend</span></div>
+                    <div class="package-includes">&#10003; All of Tier 1, plus:<br>&#10003; 20&ndash;30 content angles (vs 10&ndash;15 in Tier 1)<br>&#10003; Retailer-ready brand brief (Olive Young, Sephora, iHerb)<br>&#10003; 400 short-form videos total (2&times; volume)<br>&#10003; Faster paid social optimisation cycle</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Learn More</button>
+                </div>
+            </div>
+            <div class="package-footer"><strong>Two engagement models:</strong> Option A (Build &amp; Train) &mdash; 100% upfront, you own and operate. Option B (Fully Managed) &mdash; 33% upfront + revenue share, we operate continuously. <a href="#cta">Talk to us about which fits.</a></div>
+        </section>
+
+        <section id="who">
+            <h2>Built for Deeptech <em>Going Global</em></h2>
+            <div class="verticals">
+                <span class="vertical-tag">AI/ML Platforms</span>
+                <span class="vertical-tag">Cybersecurity</span>
+                <span class="vertical-tag">Fintech/Regtech</span>
+                <span class="vertical-tag">Biotech</span>
+                <span class="vertical-tag">Robotics</span>
+                <span class="vertical-tag">Semiconductor Tools</span>
+                <span class="vertical-tag">Cleantech</span>
+                <span class="vertical-tag">Deeptech SaaS</span>
+            </div>
+            <p class="who-description">We work with B2B deeptech and highly technical SaaS companies at Series A through C, or bootstrapped with $5M+ ARR, who are entering new markets or need to systematise pipeline beyond founder-led sales. Korean DTC consumer brands (beauty, health, supplements) expanding globally are served through our B2C product line.</p>
+            <div class="logos-label">Trusted by leading companies</div>
+            <div class="logos-grid">
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SAMSUNG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">NVIDIA</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="22" font-family="Outfit,sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="1">LG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">Grab</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic" letter-spacing="1">Pepsi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 140 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="70" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" text-anchor="middle" font-style="italic">Coca-Cola</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SONY</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HUAWEI</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="300" text-anchor="middle" letter-spacing="1">Xiaomi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="15" font-weight="700" text-anchor="middle">TikTok</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic">Nestlé</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HANWHA</text></svg></div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Start With a <em>Conversation.</em></h2>
+            <p class="cta-subheadline">A 30-minute strategy call to assess fit, understand your expansion goal, and outline the right engagement structure for your company. You leave with a clear picture of what 60&ndash;90 days looks like for your business.</p>
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="company">Company</label><input type="text" id="company" name="company" required></div>
+                <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+                <div class="form-group"><label for="challenge">What's your biggest GTM challenge right now?</label><textarea id="challenge" name="challenge" required></textarea></div>
+                <button type="submit" class="form-submit">Book Your Strategy Call</button>
+            </form>
+            <div class="cta-alternative">Or email directly: <a href="mailto:jay@jdalchemy.com">jay@jdalchemy.com</a></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">JD Alchemy</div>
+            <div class="footer-copyright">&copy; 2026 JD Alchemy Holdings. Singapore.</div>
+        </div>
+    </footer>
+
+    <script>
+        let carouselIndex=0;const carousel=document.getElementById('caseCarousel'),slides=carousel.querySelectorAll('.case-study'),totalSlides=slides.length,dotsContainer=document.getElementById('carouselDots'),counterEl=document.getElementById('carouselCounter');
+        function buildDots(){dotsContainer.innerHTML='';for(let i=0;i<totalSlides;i++){const d=document.createElement('button');d.className='carousel-dot'+(i===carouselIndex?' active':'');d.onclick=()=>{carouselIndex=i;updateCarousel()};dotsContainer.appendChild(d)}}
+        function updateCarousel(){if(carouselIndex<0)carouselIndex=0;if(carouselIndex>=totalSlides)carouselIndex=totalSlides-1;carousel.style.transform='translateX(-'+carouselIndex*100+'%)';document.getElementById('carouselPrev').disabled=carouselIndex===0;document.getElementById('carouselNext').disabled=carouselIndex>=totalSlides-1;counterEl.textContent=(carouselIndex+1)+' / '+totalSlides;dotsContainer.querySelectorAll('.carousel-dot').forEach((d,i)=>{d.className='carousel-dot'+(i===carouselIndex?' active':'')})}
+        function moveCarousel(dir){carouselIndex+=dir;updateCarousel()}
+        document.getElementById('carouselPrev').addEventListener('click',function(){moveCarousel(-1)});
+        document.getElementById('carouselNext').addEventListener('click',function(){moveCarousel(1)});
+        buildDots();updateCarousel();
+        const mobileMenuToggle=document.getElementById('mobileMenuToggle'),navLinks=document.getElementById('navLinks');
+        mobileMenuToggle.addEventListener('click',()=>{navLinks.classList.toggle('active')});
+        navLinks.querySelectorAll('a').forEach(item=>{item.addEventListener('click',()=>{navLinks.classList.remove('active')})});
+        function handleFormSubmit(e){e.preventDefault();const f=e.target,b=f.querySelector('.form-submit'),o=b.textContent;b.textContent='Check your email!';b.disabled=true;setTimeout(()=>{b.textContent=o;b.disabled=false;f.reset()},3000)}
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h!=='#'&&document.querySelector(h)){e.preventDefault();document.querySelector(h).scrollIntoView({behavior:'smooth'})}})});
+        const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.style.opacity='1';entry.target.style.animation='slideUp 0.8s ease-out forwards'}})},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
+        document.querySelectorAll('.problem-card,.phase,.package,.aios-layer,.alt-card').forEach(el=>{el.style.opacity='0';observer.observe(el)});
+    </script>
+</body>
+</html>

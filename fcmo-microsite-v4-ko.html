@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JD Alchemy는 AI 기반 GTM 엔진을 구축합니다 — 아웃바운드, ABM, 콘텐츠, 파이프라인 — 딥테크 기업이 제품과 딜에 집중할 수 있도록 설계된 시스템입니다.">
+    <meta name="keywords" content="GTM, 고투마켓, 딥테크, B2B, 아웃바운드, 파이프라인, SaaS, AI 오퍼레이팅 시스템, AIOS, Fractional CMO">
+    <meta name="author" content="JD Alchemy">
+    <meta property="og:title" content="AI 기반 GTM 엔진을 구축합니다. 경영에 집중하세요. | JD Alchemy">
+    <meta property="og:description" content="JD Alchemy는 AI 기반 GTM 엔진을 구축합니다 — 아웃바운드, ABM, 콘텐츠, 파이프라인 — 딥테크 기업이 제품과 딜에 집중할 수 있도록 설계된 시스템입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcmo.jdalchemy.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI 기반 GTM 엔진을 구축합니다. 경영에 집중하세요. | JD Alchemy">
+    <meta name="twitter:description" content="JD Alchemy는 AI 기반 GTM 엔진을 구축합니다 — 아웃바운드, ABM, 콘텐츠, 파이프라인 — 딥테크 기업이 제품과 딜에 집중할 수 있도록 설계된 시스템입니다.">
+    <title>AI 기반 GTM 엔진을 구축합니다. 경영에 집중하세요. | JD Alchemy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--font-display:'Instrument Serif',Georgia,serif;--font-body:'Noto Sans KR','Outfit',system-ui,sans-serif}
+        html{scroll-behavior:smooth}
+        body{font-family:var(--font-body);background-color:#0a0a0a;color:#f5f5f5;line-height:1.6;overflow-x:hidden;word-break:keep-all}
+        header{position:fixed;top:0;left:0;right:0;background:rgba(10,10,10,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(196,165,90,0.1);z-index:1000;padding:1rem 2rem}
+        nav{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:1.5rem;font-weight:700;color:#c4a55a;text-decoration:none;letter-spacing:-0.5px;font-family:'Outfit',sans-serif}
+        .nav-links{display:flex;gap:2rem;list-style:none;align-items:center}
+        .nav-links a{color:#b0b0b0;text-decoration:none;font-size:0.95rem;transition:color .3s;font-weight:500}
+        .nav-links a:hover{color:#c4a55a}
+        .lang-toggle{background:rgba(196,165,90,0.15);color:#c4a55a!important;padding:.5rem 1rem;border-radius:6px;font-size:.85rem;font-weight:600;border:1px solid rgba(196,165,90,0.3);transition:all .3s}
+        .lang-toggle:hover{background:rgba(196,165,90,0.25);border-color:#c4a55a}
+        .cta-nav{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white;padding:.75rem 1.5rem;border-radius:6px;font-size:.9rem;font-weight:600;transition:all .3s;border:none;cursor:pointer}
+        .cta-nav:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(196,165,90,0.3)}
+        .mobile-menu-toggle{display:none;flex-direction:column;cursor:pointer;background:none;border:none}
+        .mobile-menu-toggle span{width:25px;height:3px;background:#c4a55a;margin:5px 0;transition:.3s;border-radius:2px}
+        main{margin-top:60px}
+        section{padding:5rem calc((100% - 1200px)/2 + 2rem)}
+        @media(max-width:1240px){section{padding:5rem 2rem}}
+        h1{font-family:var(--font-body);font-size:3rem;font-weight:700;margin-bottom:1rem;line-height:1.3;color:#fff}
+        h1 em,h2 em{font-style:normal;color:#c4a55a;-webkit-text-fill-color:#c4a55a}
+        h2{font-family:var(--font-body);font-size:2.2rem;font-weight:700;margin-bottom:1.5rem;color:#fff}
+        h3{font-family:var(--font-body);font-size:1.4rem;font-weight:600;margin-bottom:.75rem;color:#fff}
+        #hero{padding:8rem 2rem 4rem;text-align:center;position:relative;overflow:visible;background:radial-gradient(ellipse at 80% 10%,rgba(196,165,90,0.12) 0%,transparent 50%),radial-gradient(ellipse at 20% 80%,rgba(232,220,200,0.08) 0%,transparent 50%)}
+        #hero>*{position:relative;z-index:1}
+        .hero-subheadline{font-size:1.3rem;color:#b0b0b0;margin-bottom:2.5rem;max-width:900px;margin-left:auto;margin-right:auto;line-height:1.9;font-weight:400}
+        .cta-buttons{display:flex;gap:1.5rem;justify-content:center;margin-bottom:4rem;flex-wrap:wrap}
+        .btn-primary,.btn-secondary{padding:1rem 2rem;font-size:1rem;font-weight:600;border-radius:8px;text-decoration:none;cursor:pointer;border:none;transition:all .3s;font-family:var(--font-body)}
+        .btn-primary{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white}
+        .btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(196,165,90,0.4)}
+        .btn-secondary{background:transparent;color:#c4a55a;border:2px solid #c4a55a}
+        .btn-secondary:hover{background:rgba(196,165,90,0.1);transform:translateY(-3px)}
+        .stats-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:4rem;padding-top:3rem;border-top:1px solid rgba(196,165,90,0.15);animation:slideUp .8s ease-out .3s both}
+        .stat-item{text-align:center}
+        .stat-item strong{color:#c4a55a;font-size:1.1rem}
+        .stat-item p{color:#888;font-size:.9rem;margin-top:.5rem}
+        #problem{background:linear-gradient(180deg,rgba(196,165,90,0.05) 0%,rgba(232,220,200,0.02) 100%)}
+        .problem-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .problem-card{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2rem;border-radius:12px;transition:all .3s}
+        .problem-card:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .problem-card .stat-highlight{font-size:2.2rem;font-weight:700;color:#c4a55a;margin-bottom:.5rem}
+        .problem-card h3{color:#c4a55a;margin-bottom:1rem}
+        .problem-card p{color:#b0b0b0;line-height:1.7}
+        .problem-card .problem-punchline{margin-top:1rem;padding-top:.75rem;border-top:1px solid rgba(196,165,90,0.15);color:#c4a55a;font-size:.9rem;font-weight:600}
+        .problem-bottom{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2);color:#b0b0b0;font-size:1.15rem;font-weight:500}
+        #alternatives{background:rgba(196,165,90,0.03)}
+        .alt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .alt-card{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2rem;border-radius:12px;transition:all .3s}
+        .alt-card:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .alt-card h3{color:#fff;margin-bottom:1rem}
+        .alt-card p{color:#b0b0b0;line-height:1.7;margin-bottom:.75rem}
+        .alt-card .alt-punchline{color:#e8744f;font-size:.9rem;font-weight:600;font-style:normal;margin-top:1rem}
+        #jay{background:rgba(196,165,90,0.05)}
+        .jay-container{display:grid;grid-template-columns:1fr 1.5fr;gap:3rem;align-items:center;animation:slideUp .8s ease-out .2s both}
+        .jay-photo{width:280px;height:280px;background:linear-gradient(135deg,#c4a55a 0%,#e8dcc8 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:4rem;font-weight:700;color:white;margin:0 auto;font-family:'Outfit',sans-serif}
+        .jay-bio{color:#b0b0b0;line-height:1.9;margin-bottom:1.5rem}
+        .jay-bio strong{color:#fff}
+        .jay-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:2rem}
+        .jay-stat{background:rgba(196,165,90,0.1);padding:1.5rem;border-radius:8px;border-left:3px solid #c4a55a}
+        .jay-stat strong{color:#c4a55a;display:block;font-size:1.2rem;margin-bottom:.5rem}
+        .jay-stat span{color:#888;font-size:.9rem}
+        #aios{background:linear-gradient(180deg,rgba(232,220,200,0.02) 0%,rgba(196,165,90,0.05) 100%)}
+        .aios-layers{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:2rem;max-width:800px;margin-left:auto;margin-right:auto;animation:slideUp .8s ease-out .2s both}
+        .aios-layer{display:grid;grid-template-columns:80px 1fr;gap:1.5rem;align-items:center;background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:1.5rem 2rem;border-radius:12px;transition:all .3s}
+        .aios-layer:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateX(8px)}
+        .aios-layer-label{font-size:.8rem;font-weight:700;color:#c4a55a;text-transform:uppercase;letter-spacing:1px;text-align:center;font-family:'Outfit',sans-serif}
+        .aios-layer-label span{display:block;font-size:1.05rem;color:#fff;text-transform:none;letter-spacing:0;margin-top:.25rem;font-weight:600}
+        .aios-layer-desc{color:#b0b0b0;font-size:1.05rem}
+        #what{background:rgba(196,165,90,0.03)}
+        .phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:2rem;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .phase{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2.5rem;border-radius:12px;transition:all .3s}
+        .phase:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4);transform:translateY(-4px)}
+        .phase h3{color:#c4a55a;margin-bottom:.5rem;font-size:1.3rem}
+        .phase-subtitle{color:#888;font-size:1.05rem;margin-bottom:1.5rem}
+        .phase ul{list-style:none}
+        .phase li{color:#b0b0b0;margin-bottom:1rem;padding-left:1.5rem;position:relative}
+        .phase li::before{content:'✓';position:absolute;left:0;color:#e8dcc8;font-weight:bold}
+        .what-bottom{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2)}
+        .what-bottom p{color:#b0b0b0;font-size:1.1rem;font-weight:500}
+        #cases{background:linear-gradient(180deg,rgba(196,165,90,0.05) 0%,rgba(232,220,200,0.02) 100%)}
+        .case-studies{position:relative;margin-top:2rem;animation:slideUp .8s ease-out .2s both}
+        .case-carousel-wrapper{overflow:hidden;padding:4px;margin:-4px}
+        .case-carousel{display:flex;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+        .case-study{background:rgba(255,255,255,0.03);border:1px solid rgba(196,165,90,0.2);padding:2.5rem 3rem;border-radius:12px;transition:background .3s,border-color .3s;width:100%;min-width:100%;box-sizing:border-box;flex-shrink:0}
+        .case-study:hover{background:rgba(255,255,255,0.05);border-color:rgba(196,165,90,0.4)}
+        .carousel-controls{display:flex;justify-content:center;align-items:center;gap:1.5rem;margin-top:2rem}
+        .carousel-btn{width:48px;height:48px;border-radius:50%;border:1px solid rgba(196,165,90,0.4);background:rgba(196,165,90,0.08);color:#c4a55a;font-size:1.2rem;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center}
+        .carousel-btn:hover{background:rgba(196,165,90,0.2);border-color:#c4a55a}
+        .carousel-btn:disabled{opacity:.3;cursor:default}
+        .carousel-dots{display:flex;gap:.5rem}
+        .carousel-dot{width:8px;height:8px;border-radius:50%;background:rgba(196,165,90,0.25);transition:all .3s;cursor:pointer;border:none}
+        .carousel-dot.active{background:#c4a55a;width:24px;border-radius:4px}
+        .carousel-counter{color:#a0a0a0;font-size:.9rem}
+        .case-tag{display:inline-block;background:rgba(196,165,90,0.15);color:#c4a55a;padding:.5rem 1.2rem;border-radius:20px;font-size:.9rem;font-weight:600;margin-bottom:1rem}
+        .case-study h3{color:#fff;margin-bottom:1rem;font-size:1.8rem;font-weight:700}
+        .case-section{margin-bottom:1rem}
+        .case-section-label{color:#c4a55a;font-size:.95rem;font-weight:600;text-transform:uppercase;margin-bottom:.4rem}
+        .case-section-text{color:#b0b0b0;line-height:1.8;font-size:1.05rem}
+        .case-results{background:rgba(232,220,200,0.12);padding:2rem;border-radius:10px;border-left:4px solid #c4a55a;margin-top:1.5rem}
+        .case-results .case-section-label{color:#c4a55a;font-size:1rem;letter-spacing:1.5px}
+        .case-results .case-section-text{color:#e8dcc8;font-size:1.15rem;line-height:1.8}
+        .case-layers-tag{display:inline-block;background:rgba(196,165,90,0.1);color:#888;padding:.25rem .75rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:1rem;margin-left:.5rem}
+        #packages{background:linear-gradient(180deg,rgba(232,220,200,0.03) 0%,rgba(196,165,90,0.05) 100%)}
+        .packages-intro{text-align:center;margin-bottom:2rem}
+        .packages-intro p{color:#b0b0b0;font-size:1.2rem;margin-top:.5rem}
+        .package-section-label{text-align:center;color:#c4a55a;font-size:1.6rem;font-weight:700;letter-spacing:1px;margin-bottom:1.5rem;margin-top:3rem}
+        .package-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem;margin-top:1rem;animation:slideUp .8s ease-out .2s both}
+        .package{background:rgba(255,255,255,0.03);border:2px solid rgba(196,165,90,0.2);padding:2.5rem;border-radius:12px;transition:all .3s;position:relative}
+        .package:hover{border-color:rgba(196,165,90,0.5);background:rgba(255,255,255,0.05);transform:translateY(-8px);box-shadow:0 12px 32px rgba(196,165,90,0.15)}
+        .package-price{font-size:2.5rem;font-weight:700;color:#c4a55a;margin-bottom:.5rem;font-family:'Outfit',sans-serif}
+        .package-name{color:#fff;font-size:1.3rem;font-weight:700;margin-bottom:.5rem}
+        .package-subtitle{color:#888;font-size:.95rem;margin-bottom:1.5rem}
+        .package-duration{color:#c4a55a;font-size:.9rem;font-weight:600;margin-bottom:1.5rem}
+        .package-includes{color:#b0b0b0;font-size:.95rem;line-height:1.8;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(196,165,90,0.2)}
+        .package-footer{text-align:center;margin-top:2rem;padding-top:2rem;border-top:1px solid rgba(196,165,90,0.2);color:#888;font-size:.9rem}
+        .package-footer a{color:#c4a55a;text-decoration:none}
+        #who{background:rgba(196,165,90,0.03)}
+        .verticals{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;animation:slideUp .8s ease-out .2s both}
+        .vertical-tag{background:rgba(196,165,90,0.15);color:#c4a55a;padding:.6rem 1.2rem;border-radius:24px;font-size:.9rem;font-weight:600;transition:all .3s}
+        .vertical-tag:hover{background:rgba(196,165,90,0.25);transform:translateY(-2px)}
+        .who-description{color:#b0b0b0;line-height:1.9;margin-bottom:3rem;max-width:800px}
+        .logos-label{color:#888;font-size:.9rem;text-transform:uppercase;font-weight:600;margin-bottom:1.5rem;text-align:center}
+        .logos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:2rem;padding:2rem;background:rgba(255,255,255,0.02);border-radius:12px;border:1px solid rgba(196,165,90,0.1)}
+        .logo-placeholder{text-align:center;padding:1rem;border-radius:8px;display:flex;align-items:center;justify-content:center;transition:all .3s;opacity:.55}
+        .logo-placeholder:hover{opacity:.85}
+        #cta{background:rgba(196,165,90,0.08);text-align:center}
+        #cta h2{margin-bottom:.75rem}
+        .cta-subheadline{color:#b0b0b0;font-size:1.15rem;max-width:700px;margin:1.5rem auto 2.5rem;line-height:1.9}
+        .contact-form{max-width:600px;margin:0 auto 2rem;display:grid;gap:1.5rem;animation:slideUp .8s ease-out .3s both}
+        .form-group{display:flex;flex-direction:column;gap:.5rem}
+        .form-group label{color:#b0b0b0;font-size:.95rem;font-weight:500;text-align:left}
+        .form-group input,.form-group textarea{background:rgba(255,255,255,0.05);border:1px solid rgba(196,165,90,0.3);color:#fff;padding:1rem;border-radius:8px;font-family:var(--font-body);font-size:1rem;transition:all .3s}
+        .form-group input:focus,.form-group textarea:focus{outline:none;background:rgba(255,255,255,0.08);border-color:#c4a55a;box-shadow:0 0 0 3px rgba(196,165,90,0.1)}
+        .form-group textarea{resize:vertical;min-height:120px}
+        .form-submit{background:linear-gradient(135deg,#c4a55a 0%,#b08d3a 100%);color:white;padding:1rem 2rem;border:none;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;transition:all .3s;font-family:var(--font-body)}
+        .form-submit:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(196,165,90,0.4)}
+        .cta-alternative{color:#b0b0b0;margin-top:1rem}
+        .cta-alternative a{color:#c4a55a;text-decoration:none;font-weight:600;transition:color .3s}
+        .cta-alternative a:hover{color:#d4b96a}
+        footer{background:rgba(0,0,0,0.4);border-top:1px solid rgba(196,165,90,0.1);padding:3rem 2rem;text-align:center;color:#888}
+        .footer-content{max-width:1200px;margin:0 auto}
+        .footer-logo{font-size:1.3rem;font-weight:700;color:#c4a55a;margin-bottom:1rem;font-family:'Outfit',sans-serif}
+        .footer-copyright{color:#666;font-size:.9rem}
+        @keyframes slideUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+        @media(max-width:768px){
+            header{padding:.75rem 1.5rem}
+            .nav-links{display:none}
+            .nav-links.active{display:flex;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:rgba(10,10,10,0.98);padding:1.5rem;gap:1rem;border-bottom:1px solid rgba(196,165,90,0.1);z-index:999}
+            .mobile-menu-toggle{display:flex}
+            section{padding:3rem 1.5rem}
+            h1{font-size:2.2rem}h2{font-size:1.6rem}h3{font-size:1.15rem}
+            .hero-subheadline{font-size:1rem}
+            .cta-buttons{flex-direction:column;gap:1rem}
+            .btn-primary,.btn-secondary{width:100%}
+            .jay-container{grid-template-columns:1fr;gap:2rem}
+            .jay-photo{width:200px;height:200px;font-size:3rem}
+            .jay-stats{grid-template-columns:1fr}
+            .problem-cards,.phases,.package-grid,.alt-grid{grid-template-columns:1fr}
+            .logos-grid{grid-template-columns:repeat(2,1fr)}
+            .stats-bar{grid-template-columns:1fr;gap:1.5rem}
+            .verticals{justify-content:center}
+            .aios-layer{grid-template-columns:60px 1fr;padding:1.25rem 1.5rem}
+        }
+        @media(max-width:480px){
+            h1{font-size:1.8rem}h2{font-size:1.4rem}
+            section{padding:2rem 1rem}
+            .logo{font-size:1.2rem}
+            .hero-subheadline{font-size:.95rem}
+            .cta-nav{padding:.6rem 1.2rem;font-size:.85rem}
+            .jay-photo{width:150px;height:150px;font-size:2rem}
+            .logos-grid{grid-template-columns:1fr}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#hero" class="logo">JD Alchemy</a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#aios">AI 운영 체제</a></li>
+                <li><a href="#what">서비스 구조</a></li>
+                <li><a href="#cases">실적</a></li>
+                <li><a href="#packages">패키지</a></li>
+                <li><a href="#who">대상 고객</a></li>
+                <li><a href="/" class="lang-toggle">English</a></li>
+                <li><button class="cta-nav" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">상담 예약</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>AI 기반 GTM 엔진을 구축합니다.<br><em>경영에 집중하세요.</em></h1>
+            <p class="hero-subheadline">JD Alchemy는 귀사의 고투마켓 전략을 위한 완전한 AI 오퍼레이팅 시스템을 구축합니다. 전략 수립, 아웃바운드, ABM, 콘텐츠, 파이프라인까지 — 레이어별로 순차 구축하여 딥테크 기업이 제품과 딜 클로징에만 집중할 수 있도록 설계합니다.</p>
+            <div class="cta-buttons">
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">전략 상담 예약하기</button>
+                <button class="btn-secondary" onclick="document.getElementById('aios').scrollIntoView({behavior:'smooth'})">AI 운영 체제 보기</button>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item"><strong>130회 이상의 GTM 스프린트</strong><p>4개 포트폴리오 기업에서 실행</p></div>
+                <div class="stat-item"><strong>570건 이상의 자산 구축</strong><p>대규모 독자 자산 배포</p></div>
+                <div class="stat-item"><strong>1억 5천만 달러 이상의 생태계 가치</strong><p>포트폴리오 벤처 전반에 영향</p></div>
+                <div class="stat-item"><strong>60억 회 이상의 콘텐츠 조회</strong><p>포트폴리오 콘텐츠 시스템 기준</p></div>
+            </div>
+        </section>
+
+        <section id="problem">
+            <h2>B2B GTM 운영은 <em>구조적으로 실패합니다</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:2rem;">이것은 예외적인 사례가 아닙니다. 귀사의 경쟁사도 동일한 구조적 문제를 겪고 있습니다.</p>
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <div class="stat-highlight">65%</div>
+                    <h3>사람의 속도로는 불가능합니다</h3>
+                    <p>SDR은 근무 시간의 65%를 받은 편지함 관리, 수동 CRM 업데이트, 컨텍스트 수집에 소비합니다. 한편, 5분 이내 응답은 30분 지연 대비 21배 높은 미팅 전환율을 기록합니다.</p>
+                    <div class="problem-punchline">유급 근무 시간의 65%에서 파이프라인 $0</div>
+                </div>
+                <div class="problem-card">
+                    <div class="stat-highlight">25%</div>
+                    <h3>마케팅 데이터의 착시 효과</h3>
+                    <p>높은 오픈율. 양호한 클릭률. 하지만 매출은 제로. B2B 마케팅 예산의 약 25%가 표면적인 참여 지표만 만들어내고 실제 수주 파이프라인은 전혀 생성하지 못하는 캠페인에 소비됩니다.</p>
+                    <div class="problem-punchline">마케팅 비용 4달러 중 1달러: 보이지 않는 ROI</div>
+                </div>
+                <div class="problem-card">
+                    <div class="stat-highlight">10</div>
+                    <h3>단일 접점 영업은 실패합니다</h3>
+                    <p>현대 B2B 구매 조직은 평균 10명의 의사결정자가 여러 부서에 걸쳐 참여하며, 그 중 52%가 VP 이상입니다. 대부분의 아웃바운드 시퀀스가 1명만 타겟하며 딜이 정체되는 원인을 찾지 못합니다.</p>
+                    <div class="problem-punchline">딜당 52% 이상 VP급 참여 필수</div>
+                </div>
+            </div>
+            <div class="problem-bottom">빠른 파이프라인 + 실행의 확실성 + 운영 오너십 + 창업자 부담 없는 성과 — 이 네 가지를 동시에 달성하는 대안은 없습니다.</div>
+        </section>
+
+        <section id="alternatives">
+            <h2>좋은 제품, <em>잘못된 지원 체계</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:2rem;">모든 대안은 가장 중요한 지점에서 실패합니다.</p>
+            <div class="alt-grid">
+                <div class="alt-card">
+                    <h3>DIY / 창업자 직접 운영</h3>
+                    <p>창업자가 GTM을 수동으로 운영합니다 — 시스템 없음, 기여도 추적 없음. 창업자 시간을 시간당 $300~$500 환산 비용으로 소모합니다. 창업자가 손을 떼면 성장이 즉시 멈춥니다.</p>
+                    <div class="alt-punchline">비용은 0원처럼 보이지만, 실제로는 치명적입니다.</div>
+                </div>
+                <div class="alt-card">
+                    <h3>기존 마케팅 에이전시</h3>
+                    <p>월 $7,000~$15,000 리테이너 — 성과가 아닌 결과물 기준 청구. 캠페인이 시장에 나가기까지 4~6주 소요. 브리프, 승인, 전략을 매일 직접 관리해야 합니다.</p>
+                    <div class="alt-punchline">책임 없는 활동. 높은 비용, 낮은 오너십.</div>
+                </div>
+                <div class="alt-card">
+                    <h3>정규직 CGO 채용</h3>
+                    <p>연봉 $80,000~$150,000 + 복리후생 — 성과가 나타나기 전부터 지출 발생. 채용·온보딩·팀 구성까지 2~3개월 소요. 전략 오너십은 있지만 파이프라인 책임은 없습니다.</p>
+                    <div class="alt-punchline">너무 느리고, 너무 비싸며, 파이프라인에 대한 책임이 거의 없습니다.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jay">
+            <h2>수십 년의 성과. <em>글로벌 영향력.</em></h2>
+            <div class="jay-container">
+                <div class="jay-photo">JJ</div>
+                <div>
+                    <p class="jay-bio"><strong>Jay Jin</strong> — 인플루언스, 자동화, 매출의 교차점에서 15년간 GTM 시스템을 설계해 온 전문가입니다. <strong>YouTube 골드 버튼(구독자 100만 이상) 15개</strong>, <strong>실버 버튼 50개 이상</strong>의 채널을 제로에서 성장시켰습니다 — 크리에이터가 아닌, 각 채널의 사용자 확보 및 수익화 루프를 설계하는 시스템 아키텍트로서.</p>
+                    <p class="jay-bio">한국, 일본, 베트남에서 <strong>20개 이상의 창업자 비즈니스</strong>를 첫 자산 구축부터 제품 런칭, 자금 조달 완료까지 벤처 빌딩하였으며, 인플루언스를 자본 효율적인 유통 채널로 활용했습니다. LINE(Naver), 대통령 후보 캠페인 등 정밀성과 성과 책임이 필수인 프로젝트를 수행했습니다.</p>
+                    <div class="jay-stats">
+                        <div class="jay-stat"><strong>130회 이상 GTM 스프린트</strong><span>4개 포트폴리오 기업에서 실행</span></div>
+                        <div class="jay-stat"><strong>$150M+ 생태계 가치</strong><span>벤처 전반에 영향</span></div>
+                        <div class="jay-stat"><strong>10,000건 이상의 자산</strong><span>독자 자산 구축·배포</span></div>
+                        <div class="jay-stat"><strong>60억 회 이상 콘텐츠 조회</strong><span>포트폴리오 콘텐츠 시스템 기준</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aios">
+            <h2>GTM을 위한 <em>AI 오퍼레이팅 시스템</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:.5rem;max-width:800px;margin-left:auto;margin-right:auto;">다섯 개의 복합 레이어가 순차적으로 구축되어, 수동적이고 창업자에게 의존적인 GTM을 확장 가능한 AI 기반 엔진으로 전환합니다.</p>
+            <p style="text-align:center;color:#888;margin-bottom:2.5rem;font-size:.95rem;">대부분의 기업은 연결된 시스템으로 운영되는 레이어가 하나도 없습니다. JDA는 다섯 개 레이어를 GTM 모션부터 순차적으로 구축합니다.</p>
+            <div class="aios-layers">
+                <div class="aios-layer"><div class="aios-layer-label">L1<span>컨텍스트</span></div><div class="aios-layer-desc">AI가 귀사의 비즈니스를 귀사만큼 잘 이해합니다 — 비즈니스 모델, 팀, 목표, 프로세스, 전략.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L2<span>데이터</span></div><div class="aios-layer-desc">매일 아침 8개 플랫폼에 로그인하는 대신, 하나의 대시보드로 통합합니다 — 매출, 트래픽, CRM, 미팅.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L3<span>인텔리전스</span></div><div class="aios-layer-desc">2시간의 컨텍스트 스위칭을 대체하는 5분짜리 모닝 브리핑 — 어떤 일이 있었는지, 무엇이 중요한지, 다음 액션은 무엇인지.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L4<span>자동화</span></div><div class="aios-layer-desc">GTM 엔진 전체가 자동으로 운영됩니다 — 아웃바운드, ABM, 콘텐츠 엔진, AI 검색 인덱싱.</div></div>
+                <div class="aios-layer"><div class="aios-layer-label">L5<span>성장</span></div><div class="aios-layer-desc">비즈니스 안에서 일하는 것이 아니라, 비즈니스 위에서 경영합니다. 레이어 1~4가 완전히 가동될 때 도달하는 상태입니다.</div></div>
+            </div>
+            <div style="text-align:center;margin-top:2.5rem;color:#888;font-size:.95rem;font-style:normal;">완전한 AI OS가 목적지입니다. GTM이 그 출발점입니다.</div>
+        </section>
+
+        <section id="what">
+            <h2>AIOS의 모든 레이어를<br><em>귀사의 GTM에 적용합니다.</em></h2>
+            <p style="text-align:center;color:#b0b0b0;margin-bottom:.5rem;font-size:1.1rem;">8개 모듈, 각각 특정 AIOS 레이어에 매핑되며, 명확한 도구와 측정 가능한 산출물이 정의되어 있습니다.</p>
+            <p style="text-align:center;color:#c4a55a;font-weight:600;margin-bottom:2.5rem;font-size:1.05rem;">&#9889; Day 30 캠페인 라이브 &middot; Day 60 첫 성과 데이터 &middot; Day 90 전체 시스템 가동</p>
+            <div class="phases">
+                <div class="phase">
+                    <h3>파운데이션 레이어 (L1~L3)</h3>
+                    <div class="phase-subtitle">1~6주차 — 컨텍스트, 데이터, 인텔리전스</div>
+                    <ul>
+                        <li><strong>Context Foundation:</strong> GTM 전략, ICP 정의, 포지셔닝, 메시징 프레임워크</li>
+                        <li><strong>Proof Foundation + Content Strategy:</strong> 케이스 스터디, ROI 계산기, 콘텐츠 앵글 뱅크</li>
+                        <li><strong>Funnel Infrastructure:</strong> CRM 구축, 기여도 추적 설정, 캠페인 리포팅</li>
+                        <li><strong>Live Intelligence Engine:</strong> 리플라이 인텔, 헬스 체크, 리포트, 최적화, 전략 콜</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>자동화 레이어 (L4)</h3>
+                    <div class="phase-subtitle">7~8주차 이후 — 파이프라인 머신</div>
+                    <ul>
+                        <li><strong>Outbound Engine:</strong> 500~1,000건 스코어링 완료 리드, 이메일 + LinkedIn 캠페인 라이브</li>
+                        <li><strong>Account-Based Marketing:</strong> 50~100개 네임드 타겟 어카운트, 의사결정자 매핑, 통합 아웃리치</li>
+                        <li><strong>LinkedIn Content Engine (B2B):</strong> 사이클당 8~12개 전략 영상 자산</li>
+                        <li><strong>AMS Content Engine (B2C):</strong> 90일 사이클당 200~400개 숏폼 영상</li>
+                        <li><strong>AEO Content Engine:</strong> 월 4~6개 AI 검색 최적화 아티클</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="what-bottom">
+                <p>킥오프부터 완전 가동까지 3.5개월.</p>
+                <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})" style="margin-top:1.5rem;">스프린트 시작하기</button>
+            </div>
+        </section>
+
+        <section id="cases">
+            <h2>이미 <em>검증된 시스템입니다.</em></h2>
+            <div class="case-studies">
+                <div class="case-carousel-wrapper">
+                <div class="case-carousel" id="caseCarousel">
+                    <div class="case-study">
+                        <div class="case-tag">콘텐츠 커머스 &middot; B2B2C &middot; Pre-Series A</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>WIT Global</h3>
+                        <div class="case-section"><div class="case-section-label">과제</div><p class="case-section-text">실질적인 트랙션을 보유한 콘텐츠 플랫폼이었으나, 체계적인 성장 엔진이 부재했습니다. 사용자 획득은 예측 불가능했고 광고 매출은 정체 상태였습니다.</p></div>
+                        <div class="case-section"><div class="case-section-label">구축 내용</div><p class="case-section-text">AIOS 레이어 1~4에 걸친 풀 GTM 스프린트 — 콘텐츠 전략 재설계, 유통 채널 최적화, 타겟 오디언스 세팅, 퍼포먼스 인프라 구축.</p></div>
+                        <div class="case-results"><div class="case-section-label">성과</div><p class="case-section-text"><strong>MAU 7배 성장. 광고 매출 5배 성장.</strong> Pre-Series A 투자 유치 성공.</p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">AI 리스크 인텔리전스 &middot; 핀테크 B2B</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>Cyber Cert</h3>
+                        <div class="case-section"><div class="case-section-label">과제</div><p class="case-section-text">펀드 매니저 실사를 위한 강력한 제품을 보유하고 있었으나, 아웃바운드 엔진이 전무했습니다. 파이프라인이 100% 창업자에게 의존적이었습니다.</p></div>
+                        <div class="case-section"><div class="case-section-label">구축 내용</div><p class="case-section-text">제로에서 체계적인 아웃바운드 파이프라인 구축 — 리드 리스트, 메시징 시퀀스, LinkedIn 아웃리치, 미팅 부킹 인프라. 30일 이내 캠페인 라이브.</p></div>
+                        <div class="case-results"><div class="case-section-label">성과</div><p class="case-section-text"><strong>제로에서 체계적 파이프라인 구축. 30일 이내 캠페인 라이브. 검증된 미팅 확보.</strong></p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">AI 미디어 스케일링 &middot; B2C DTC 뷰티 &amp; 헬스</div><span class="case-layers-tag">전체 5개 레이어 — Full AIOS</span>
+                        <h3>Digicon</h3>
+                        <div class="case-section"><div class="case-section-label">과제</div><p class="case-section-text">AI 기반 숏폼 영상 엔진을 보유하고 있었으나, 한국 및 미국 시장 GTM이 전무한 상태. 브랜드 확보 시스템과 유통 파트너십이 부재했습니다.</p></div>
+                        <div class="case-section"><div class="case-section-label">구축 내용</div><p class="case-section-text">AIOS 전체 5개 레이어에 걸친 엔드투엔드 GTM — 브랜드 확보 엔진, 유통 채널 파트너십, 한국 및 미국 시장 퍼포먼스 마케팅.</p></div>
+                        <div class="case-results"><div class="case-section-label">성과</div><p class="case-section-text"><strong>콘텐츠 조회수 60억 회 이상. 1년 차 40개 이상의 브랜드 온보딩. 대통령상 수상(#1)</strong> — 청년 기술 스타트업 그랜드 챌린지.</p></div>
+                    </div>
+                    <div class="case-study">
+                        <div class="case-tag">브랜드 인텔리전스 SaaS</div><span class="case-layers-tag">L1 + L2 + L3 + L4</span>
+                        <h3>BrandBeam</h3>
+                        <div class="case-section"><div class="case-section-label">과제</div><p class="case-section-text">강력한 기술을 보유하고 있었으나 GTM 모션이 전무. ICP 정의, 아웃바운드 전략, 첫 고객 확보가 모두 제로에서 필요한 상태였습니다.</p></div>
+                        <div class="case-section"><div class="case-section-label">구축 내용</div><p class="case-section-text">컨셉부터 런칭까지의 풀 GTM 전략 — ICP 정의, 아웃바운드 엔진, 엔터프라이즈 세일즈 플레이북, 파일럿 고객 확보 프로그램.</p></div>
+                        <div class="case-results"><div class="case-section-label">성과</div><p class="case-section-text"><strong>제로에서 90일 이내 50개 이상의 엔터프라이즈 파일럿 확보.</strong> 자립적 성장 엔진 구축 완료.</p></div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev">&#8592;</button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <span class="carousel-counter" id="carouselCounter">1 / 4</span>
+                    <button class="carousel-btn" id="carouselNext">&#8594;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <div class="packages-intro">
+                <h2>예측 가능한 투자. <em>확장 가능한 성과.</em></h2>
+                <p>동일한 검증된 AIOS 시스템. 귀사의 단계와 목표에 맞게 조정됩니다.</p>
+            </div>
+            <div class="package-section-label">B2B 딥테크 &amp; 테크니컬 SaaS</div>
+            <div class="package-grid">
+                <div class="package">
+                    <div class="package-price">$30,000</div>
+                    <div class="package-name">Outbound Foundation</div>
+                    <div class="package-subtitle">기존 시장 확장</div>
+                    <div class="package-duration">60일 &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + Outbound Engine</div>
+                    <div class="package-includes">&#10003; GTM 전략 + ICP 정의<br>&#10003; 500~1,000건 스코어링 완료 검증 리드<br>&#10003; 이메일 + LinkedIn 캠페인 라이브<br>&#10003; CRM + 기여도 추적 설정<br>&#10003; 스프린트 종료 성과 리포트</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">자세히 보기</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$45,000</div>
+                    <div class="package-name">Market Entry</div>
+                    <div class="package-subtitle">신규 시장 진출</div>
+                    <div class="package-duration">90일 &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + Outbound Engine + Account-Based Marketing</div>
+                    <div class="package-includes">&#10003; Tier 1 전체 포함, 추가:<br>&#10003; 케이스 스터디 + ROI 계산기<br>&#10003; 50~100개 네임드 ABM 타겟 어카운트<br>&#10003; 의사결정자 매핑 (어카운트당 2~3명)<br>&#10003; LinkedIn Ads 전략 플랜</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">자세히 보기</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$60,000</div>
+                    <div class="package-name">Full AIOS GTM</div>
+                    <div class="package-subtitle">공격적 시장 확보</div>
+                    <div class="package-duration">90일 스프린트 + 3개월 운영 &middot; B2B 전체 8개 모듈</div>
+                    <div class="package-includes">&#10003; Tier 2 전체 포함, 추가:<br>&#10003; LinkedIn Content Engine (사이클당 8~12개 자산)<br>&#10003; AEO Content Engine (월 4~6개 아티클)<br>&#10003; 월간 리포트 + 전략 콜<br>&#10003; 6개월 이후 지분 논의 가능</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">자세히 보기</button>
+                </div>
+            </div>
+            <div class="package-section-label">B2C DTC 브랜드</div>
+            <div class="package-grid" style="grid-template-columns:repeat(auto-fit,minmax(340px,1fr));">
+                <div class="package">
+                    <div class="package-price">$35,000</div>
+                    <div class="package-name">Content Foundation</div>
+                    <div class="package-subtitle">DTC 브랜드 — 콘텐츠 엔진 구축</div>
+                    <div class="package-duration">90일 &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + AMS Content Engine (Standard)<br><span style="color:#c4a55a;font-size:.85rem;">+ 클라이언트 광고비 별도</span></div>
+                    <div class="package-includes">&#10003; 소비자 브랜드 포지셔닝 + ICP<br>&#10003; 브랜드 스토리 + 증거 자산 문서<br>&#10003; 브랜드 성과 추적 (CRM/기여도 분석)<br>&#10003; 숏폼 영상 200개<br>&#10003; 월간 성과 리포트 + 전략 콜</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">자세히 보기</button>
+                </div>
+                <div class="package">
+                    <div class="package-price">$50,000</div>
+                    <div class="package-name">Content Scale</div>
+                    <div class="package-subtitle">DTC 브랜드 — 볼륨 + 페이드 최적화</div>
+                    <div class="package-duration">90일 &middot; Context Foundation + Proof Foundation &amp; Content Strategy + Funnel Infrastructure + Live Intelligence Engine + AMS Content Engine (Scale)<br><span style="color:#c4a55a;font-size:.85rem;">+ 클라이언트 광고비 별도</span></div>
+                    <div class="package-includes">&#10003; B2C Tier 1 전체 포함, 추가:<br>&#10003; 20~30개 콘텐츠 앵글 (Tier 1 대비 2배)<br>&#10003; 리테일러 대응 브랜드 브리프 (올리브영, 세포라, iHerb)<br>&#10003; 숏폼 영상 총 400개 (2배 볼륨)<br>&#10003; 더 빠른 페이드 소셜 최적화 사이클</div>
+                    <button class="btn-primary" style="width:100%;margin-top:1.5rem;" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">자세히 보기</button>
+                </div>
+            </div>
+            <div class="package-footer"><strong>두 가지 계약 모델:</strong> Option A (Build &amp; Train) — 100% 선불, 귀사가 소유·운영. Option B (Fully Managed) — 33% 선불 + 매출 연동, 저희가 지속 운영. <a href="#cta">어떤 모델이 맞는지 상담하세요.</a></div>
+        </section>
+
+        <section id="who">
+            <h2>글로벌 진출을 준비하는 <em>딥테크 기업을 위해</em></h2>
+            <div class="verticals">
+                <span class="vertical-tag">AI/ML 플랫폼</span>
+                <span class="vertical-tag">사이버 보안</span>
+                <span class="vertical-tag">핀테크/레그테크</span>
+                <span class="vertical-tag">바이오테크</span>
+                <span class="vertical-tag">로보틱스</span>
+                <span class="vertical-tag">반도체 장비</span>
+                <span class="vertical-tag">클린테크</span>
+                <span class="vertical-tag">딥테크 SaaS</span>
+            </div>
+            <p class="who-description">Series A~C 단계, 또는 ARR $5M 이상의 부트스트랩 딥테크 및 하이테크 SaaS 기업 중 신규 시장 진출이 필요하거나, 창업자 주도 영업을 넘어 체계적인 파이프라인 구축이 필요한 기업을 대상으로 합니다. 글로벌 확장을 준비하는 한국 DTC 소비재 브랜드(뷰티, 헬스, 서플리먼트)는 B2C 제품 라인을 통해 지원합니다.</p>
+            <div class="logos-label">신뢰받는 글로벌 기업들과 함께합니다</div>
+            <div class="logos-grid">
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SAMSUNG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">NVIDIA</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="22" font-family="Outfit,sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="1">LG</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">Grab</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic" letter-spacing="1">Pepsi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 140 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="70" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" text-anchor="middle" font-style="italic">Coca-Cola</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">SONY</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HUAWEI</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="16" font-weight="300" text-anchor="middle" letter-spacing="1">Xiaomi</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="Outfit,sans-serif" font-size="15" font-weight="700" text-anchor="middle">TikTok</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 120 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="60" y="20" font-family="'Instrument Serif',Georgia,serif" font-size="16" font-weight="400" text-anchor="middle" font-style="italic">Nestlé</text></svg></div>
+                <div class="logo-placeholder"><svg viewBox="0 0 130 28" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg"><text x="65" y="20" font-family="Outfit,sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">HANWHA</text></svg></div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2><em>대화에서</em> 시작합니다.</h2>
+            <p class="cta-subheadline">30분 전략 상담을 통해 적합성을 평가하고, 귀사의 확장 목표를 파악하며, 최적의 계약 구조를 설계합니다. 상담 후, 향후 60~90일의 구체적인 로드맵을 가지고 돌아가실 수 있습니다.</p>
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group"><label for="name">성함</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="company">회사명</label><input type="text" id="company" name="company" required></div>
+                <div class="form-group"><label for="email">이메일</label><input type="email" id="email" name="email" required></div>
+                <div class="form-group"><label for="challenge">현재 가장 큰 GTM 과제는 무엇입니까?</label><textarea id="challenge" name="challenge" required></textarea></div>
+                <button type="submit" class="form-submit">전략 상담 예약하기</button>
+            </form>
+            <div class="cta-alternative">이메일로 직접 연락하기: <a href="mailto:jay@jdalchemy.com">jay@jdalchemy.com</a></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">JD Alchemy</div>
+            <div class="footer-copyright">&copy; 2026 JD Alchemy Holdings. Singapore.</div>
+        </div>
+    </footer>
+
+    <script>
+        let carouselIndex=0;const carousel=document.getElementById('caseCarousel'),slides=carousel.querySelectorAll('.case-study'),totalSlides=slides.length,dotsContainer=document.getElementById('carouselDots'),counterEl=document.getElementById('carouselCounter');
+        function buildDots(){dotsContainer.innerHTML='';for(let i=0;i<totalSlides;i++){const d=document.createElement('button');d.className='carousel-dot'+(i===carouselIndex?' active':'');d.onclick=()=>{carouselIndex=i;updateCarousel()};dotsContainer.appendChild(d)}}
+        function updateCarousel(){if(carouselIndex<0)carouselIndex=0;if(carouselIndex>=totalSlides)carouselIndex=totalSlides-1;carousel.style.transform='translateX(-'+carouselIndex*100+'%)';document.getElementById('carouselPrev').disabled=carouselIndex===0;document.getElementById('carouselNext').disabled=carouselIndex>=totalSlides-1;counterEl.textContent=(carouselIndex+1)+' / '+totalSlides;dotsContainer.querySelectorAll('.carousel-dot').forEach((d,i)=>{d.className='carousel-dot'+(i===carouselIndex?' active':'')})}
+        function moveCarousel(dir){carouselIndex+=dir;updateCarousel()}
+        document.getElementById('carouselPrev').addEventListener('click',function(){moveCarousel(-1)});
+        document.getElementById('carouselNext').addEventListener('click',function(){moveCarousel(1)});
+        buildDots();updateCarousel();
+        const mobileMenuToggle=document.getElementById('mobileMenuToggle'),navLinks=document.getElementById('navLinks');
+        mobileMenuToggle.addEventListener('click',()=>{navLinks.classList.toggle('active')});
+        navLinks.querySelectorAll('a').forEach(item=>{item.addEventListener('click',()=>{navLinks.classList.remove('active')})});
+        function handleFormSubmit(e){e.preventDefault();const f=e.target,b=f.querySelector('.form-submit'),o=b.textContent;b.textContent='이메일을 확인해 주세요!';b.disabled=true;setTimeout(()=>{b.textContent=o;b.disabled=false;f.reset()},3000)}
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h!=='#'&&document.querySelector(h)){e.preventDefault();document.querySelector(h).scrollIntoView({behavior:'smooth'})}})});
+        const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.style.opacity='1';entry.target.style.animation='slideUp 0.8s ease-out forwards'}})},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
+        document.querySelectorAll('.problem-card,.phase,.package,.aios-layer,.alt-card').forEach(el=>{el.style.opacity='0';observer.observe(el)});
+    </script>
+</body>
+</html>

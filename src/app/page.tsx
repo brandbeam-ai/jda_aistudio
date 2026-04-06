@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { MicrositePage } from "@/components/microsite-page";
 import { loadMicrosite } from "@/lib/microsite";
 
-const microsite = loadMicrosite("fcmo-microsite-v3.html");
+const microsite = loadMicrosite("fcmo-microsite-v4.html");
 
 export const metadata: Metadata = {
   title: microsite.title,

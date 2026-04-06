@@ -18,13 +18,13 @@ function extractFirst(input: string, pattern: RegExp): string {
 
 export function loadMicrosite(fileName: string): MicrositeData {
   const filePathByName: Record<string, string> = {
-    "fcmo-microsite-v3.html": path.join(
+    "fcmo-microsite-v4.html": path.join(
       process.cwd(),
-      "fcmo-microsite-v3.html",
+      "fcmo-microsite-v4.html",
     ),
-    "fcmo-microsite-v3-ko.html": path.join(
+    "fcmo-microsite-v4-ko.html": path.join(
       process.cwd(),
-      "fcmo-microsite-v3-ko.html",
+      "fcmo-microsite-v4-ko.html",
     ),
   };
   const filePath = filePathByName[fileName];
